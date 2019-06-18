@@ -1,33 +1,45 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 class UpperHeader extends Component {
-    render() {
-        return (
-            <div className="upper-header">
-                <div className="upper-header-wrapper">
-                    <ul className="upper-header-content">
-                        <li>-5 C</li>
-                        <li>New York</li>
-                        <li>Monday, March 6</li>
-                        <li>Blog</li>
-                        <li>Forum</li>
-                        <li>Contact</li>
-                        <li>Buy Now !</li>
-                    </ul>
+  render() {
+    return (
+      <React.Fragment>
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <Nav className="mr-auto">
+              <Nav.Link href="#home">-5 C</Nav.Link>
+              <Nav.Link href="#">New York</Nav.Link>
+              <Nav.Link href="#">Monday, 6 March</Nav.Link>
+              <Nav.Link href="#">Blog</Nav.Link>
+              <Nav.Link href="#">Forum</Nav.Link>
+              <Nav.Link href="#">Contact</Nav.Link>
+              <Nav.Link href="#">Buy Now !</Nav.Link>
+            </Nav>
 
-
-                    <ul className="social-icons">
-                        <li><i className="fab fa-facebook-square"></i></li>
-                        <li><i className="fab fa-pinterest"></i></li>
-                        <li><i className="fab fa-instagram"></i></li>
-                        <li><i className="fab fa-google"></i></li>
-                        <li><i className="fas fa-sign-in-alt"></i> Sign in</li>
-                    </ul>
-                </div>
-            </div>
-
-        );
-    }
+            <Nav className="mr-auto">
+              <Nav.Link href="#">
+                <i className="fab fa-pinterest" />
+              </Nav.Link>
+              <Nav.Link href="#">
+                <i className="fab fa-facebook-square" />
+              </Nav.Link>
+              <Nav.Link href="#">
+                <i className="fab fa-instagram" />
+              </Nav.Link>
+              <Nav.Link href="#">
+                <i className="fab fa-google" />
+              </Nav.Link>
+              <Nav.Link href="#">
+                <i className="fas fa-sign-in-alt" />
+              </Nav.Link>
+              <Nav.Link href="#">Sign in</Nav.Link>
+            </Nav>
+          </Container>
+        </Navbar>
+      </React.Fragment>
+    );
+  }
 }
 
 export default UpperHeader;
