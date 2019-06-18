@@ -1,3 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+* {
+  font-family: 'Open Sans', sans-serif; }
 
+.upper-banner-wrapper {
+  list-style-type: none;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  position: relative; }
+  .upper-banner-wrapper .upper-banner {
+    height: 550px;
+    width: 33.33%;
+    display: flex; }
+    .upper-banner-wrapper .upper-banner .details-wrapper {
+      position: absolute;
+      bottom: 15px;
+      width: 400px;
+      padding-left: 30px; }
+      .upper-banner-wrapper .upper-banner .details-wrapper .style-type {
+        background-color: #dd4c39;
+        margin-right: 10px;
+        padding: 5px;
+        border-radius: 5px; }
+      .upper-banner-wrapper .upper-banner .details-wrapper .description {
+        font-size: 18px;
+        margin: 20px 0 10px; }
 
 /*# sourceMappingURL=style.css.map */
