@@ -1,14 +1,14 @@
 import React from "react";
-import "./scss/reset.css";
 import UpperHeader from "./components/Navbar/MainHeader";
 import UpperBanner from "./components/Banner/UpperBanner";
-import "./scss/style.css";
+import Main from "./components/MainPage/Main";
 
 function App() {
   return (
     <div className="App">
       <UpperHeader />
       <UpperBanner />
+      <Main />
     </div>
   );
 }

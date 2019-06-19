@@ -29,7 +29,7 @@ class LowerHeader extends Component {
               </NavDropdown>
               <Nav.Link href="#interviews">Interview</Nav.Link>
             </Nav>
-            <Nav className="mr-auto"><i class="fas fa-search"></i></Nav>
+            <Nav className="mr-auto"><i className="fas fa-search"></i></Nav>
           </Navbar.Collapse>
           </Container>
         </Navbar>

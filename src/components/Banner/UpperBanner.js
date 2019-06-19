@@ -7,7 +7,7 @@ class UpperBanner extends Component {
     this.state = {
       data: bannerData
     };
-  }
+  } 
   render() {
     const { data } = this.state;
     return (
@@ -21,7 +21,7 @@ class UpperBanner extends Component {
               <div className="details-wrapper">
                 <span className="style-type">{item.style}</span>
                 <span className="views">
-                  <i class="fas fa-eye" />
+                  <i className="fas fa-eye eye-icon" />
                   {item.view}
                 </span>
                 <p className="description">{item.description}</p>
