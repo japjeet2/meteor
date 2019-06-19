@@ -7,7 +7,7 @@ class UpperBanner extends Component {
     this.state = {
       data: bannerData
     };
-  } 
+  }
   render() {
     const { data } = this.state;
     return (
@@ -15,6 +15,7 @@ class UpperBanner extends Component {
         {data.map(item => {
           return (
             <li
+              key={item.id}
               className="upper-banner"
               style={{ background: `url(${item.image})` }}
             >

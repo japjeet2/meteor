@@ -1,5 +1,6 @@
 import React from "react";
-import TopSection from "./TopSection";
+import StyleHunter from "./StyleHunter";
+import LifeStyle from "./LifeStyle";
 import { Container } from "react-bootstrap";
 
 function Main() {
@@ -8,7 +9,8 @@ function Main() {
       <Container>
         <div className="row">
           <div className="col-lg-8">
-            <TopSection />
+            <StyleHunter />
+            <LifeStyle />
           </div>
         </div>
       </Container>

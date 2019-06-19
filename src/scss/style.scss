@@ -46,14 +46,17 @@
 }
 
 // ----------Main Section----------------
+.main-page-wrapper {
+    margin: 20px 0 20px;
+    .main-section {
+        background-color: #f5f5f5;
+    }
 
-.main-section {
-    background-color: #f5f5f5;
 }
 
-// --------------Top Section Division--------------
+// --------------Style & Life Cycle Section Division--------------
 
-.main-heading {
+.main-heading-1 {
     color: #8a3ab9 !important;
     font-weight: 600;
 }
@@ -65,11 +68,10 @@
     .top-section-nav {
         position: absolute;
         right: 0;
+        font-size: 14px;
     }
 
 }
-
-
 
 .card-description {
     .style-box {
@@ -81,8 +83,7 @@
 
     .heading-style {
         margin: 10px 0 10px;
-        // color: #4068d2;
-        background: -webkit-linear-gradient(180deg, rgba(238,156,255,1) 0%, rgba(0,128,128,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(238, 156, 255, 1) 0%, rgba(0, 128, 128, 1) 100%);
         background-clip: text;
         -webkit-text-fill-color: transparent
     }
@@ -96,6 +97,7 @@
         margin: 15px 0 25px;
         word-spacing: 1rem;
         line-height: 1.5;
+        font-size: 14px;
     }
 }
 
@@ -105,8 +107,22 @@
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+
     .style-box {
         background-color: #dd4c39;
-        
+
+    }
+}
+
+// -------------Extra Life Style Division Styling-------------
+
+.main-heading-2 {
+    color: #f44f43 !important;
+    font-weight: 600;
+}
+
+.card-description-2 {
+    .style-box {
+        background-color: #f44336;
     }
 }

@@ -29,20 +29,19 @@ export const bannerData = [
 
 //----------------Style--------------------
 
-export const Style = [
+export const StyleData = [
   {
     id: 1,
     image: "https://i.ibb.co/7SXsGT5/top-section.jpg",
-    style: "Vague",
+    style: "Vogue",
     view: "36.6k",
     heading: "No, Really: Congress Is About To Hand Over Your Personal",
     authorDetails: "Jhon  |  2 hours ago",
-    //   name:"Jhon",
-    //   hour:"2 hours ago",
-    description:
-      "News is a direct tool of influence on public consciousness. The goal of the news is to provide to the society objective information about a particular event or action"
+    description: "News is a direct tool of influence on public consciousness. The goal of the news is to provide to the society objective information about a particular event or action"
   }
 ];
+
+// -----------Style Small Cards------------------
 
 export const StyleSmallCard = [
     {
@@ -63,4 +62,19 @@ export const StyleSmallCard = [
         authorDetails: "Jhon  |  2 hours ago",
         description: "Seven years after the Affordable Care act was enacted, Republicans are trying to follow through on their..."
       }
+  ];
+
+
+// --------------------Life Style Card---------------
+
+export const LifeStyleData = [
+    {
+      id: 1,
+      image: "https://i.ibb.co/7SXsGT5/top-section.jpg",
+      style: "Vogue",
+      view: "192.4k",
+      heading: "No, Really: Congress Is About To Hand Over Your Personal",
+      authorDetails: "Jhon  |  2 hours ago",
+      description: "News is a direct tool of influence on public consciousness. The goal of the news is to provide to the society objective information about a particular event or action"
+    }
   ];

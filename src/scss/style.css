@@ -29,10 +29,12 @@
         font-size: 18px;
         margin: 20px 0 10px; }
 
-.main-section {
-  background-color: #f5f5f5; }
+.main-page-wrapper {
+  margin: 20px 0 20px; }
+  .main-page-wrapper .main-section {
+    background-color: #f5f5f5; }
 
-.main-heading {
+.main-heading-1 {
   color: #8a3ab9 !important;
   font-weight: 600; }
 
@@ -41,7 +43,8 @@
   margin-bottom: 20px; }
   .top-section-div .top-section-nav {
     position: absolute;
-    right: 0; }
+    right: 0;
+    font-size: 14px; }
 
 .card-description .style-box {
   background-color: #8a3ab9;
@@ -59,7 +62,8 @@
 .card-description .card-text {
   margin: 15px 0 25px;
   word-spacing: 1rem;
-  line-height: 1.5; }
+  line-height: 1.5;
+  font-size: 14px; }
 
 .small-card-wrapper {
   display: flex;
@@ -67,5 +71,12 @@
   margin-top: 30px; }
   .small-card-wrapper .style-box {
     background-color: #dd4c39; }
+
+.main-heading-2 {
+  color: #f44f43 !important;
+  font-weight: 600; }
+
+.card-description-2 .style-box {
+  background-color: #f44336; }
 
 /*# sourceMappingURL=style.css.map */

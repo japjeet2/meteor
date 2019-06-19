@@ -1,21 +1,23 @@
 import React, { Component } from "react";
 import { Navbar, Nav, Card } from "react-bootstrap";
-import { Style, StyleSmallCard } from "./../../itemsConfig";
+import { StyleData, StyleSmallCard } from "../../itemsConfig";
 
-class TopSection extends Component {
+class StyleHunter extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: Style,
+      data: StyleData,
       smallData: StyleSmallCard
     };
   }
   render() {
     const { data, smallData } = this.state;
     return (
-      <>
+      <div className="main-page-wrapper">
+        {/* Main Heading of Component */}
+
         <Navbar className="top-section-div">
-          <Navbar.Brand href="#home" className="main-heading">
+          <Navbar.Brand href="#home" className="main-heading-1">
             Style Hunter
           </Navbar.Brand>
 
@@ -39,7 +41,7 @@ class TopSection extends Component {
 
         {data.map(item => {
           return (
-            <Card>
+            <Card key={item.id}>
               <Card.Img variant="top" src={item.image} />
               <Card.Body className="card-description">
                 <span className="style-box">{item.style}</span>
@@ -64,7 +66,7 @@ class TopSection extends Component {
         <div className="small-card-wrapper">
           {smallData.map(item => {
             return (
-              <Card style={{ width: "22rem" }}>
+              <Card key={item.id} style={{ width: "22rem" }}>
                 <Card.Img variant="top" src={item.image} />
                 <Card.Body className="card-description">
                   <span className="style-box">{item.style}</span>
@@ -84,9 +86,9 @@ class TopSection extends Component {
             );
           })}
         </div>
-      </>
+      </div>
     );
   }
 }
 
-export default TopSection;
+export default StyleHunter;
