@@ -3,19 +3,19 @@
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 .upper-banner-wrapper {
-    list-style-type: none;
     color: #fff;
     width: 100%;
-    display: flex;
+    margin: 0;
+    // width: 100%;
+    // display: flex;
     position: relative;
 
     .upper-banner {
         height: 550px;
-        width: 33.33%;
+        // width: 33.33%;
         display: flex;
 
         .details-wrapper {
@@ -24,8 +24,8 @@
             width: 400px;
             padding-left: 30px;
 
-            .style-type {
-                background-color: #dd4c39;
+            .upper-banner-style-type {
+                // background-color: #dd4c39;
                 margin-right: 10px;
                 padding: 5px;
                 border-radius: 5px;
@@ -48,10 +48,11 @@
 // ----------Main Section----------------
 .main-page-wrapper {
     margin: 20px 0 20px;
-    .main-section {
-        background-color: #f5f5f5;
-    }
+}
 
+.main-section {
+    // background-color: #f5f5f5;
+    background: #ccc;
 }
 
 // --------------Style & Life Cycle Section Division--------------
@@ -62,7 +63,9 @@
 }
 
 .top-section-div {
-    border-bottom: 2px solid #6c32a7;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(270deg, rgba(255,69,69,1) 0%, rgba(0,128,128,1) 100%);
+    border-image-slice: 1;
     margin-bottom: 20px;
 
     .top-section-nav {
@@ -77,8 +80,9 @@
     .style-box {
         background-color: #8a3ab9;
         color: #fff;
-        padding-left: 30px;
-        margin-right: 10px;
+        padding: 3px 5px 3px 30px;
+        border-radius: 2px;
+        margin: 0 10px 0 -20px;
     }
 
     .heading-style {
@@ -103,14 +107,13 @@
 
 // --------------------Small Card Styling----------------
 
-.small-card-wrapper {
-    display: flex;
-    justify-content: space-between;
+.style-hunter-wrapper {
+    // display: flex;
+    // justify-content: space-between;
     margin-top: 30px;
 
     .style-box {
         background-color: #dd4c39;
-
     }
 }
 
@@ -124,5 +127,45 @@
 .card-description-2 {
     .style-box {
         background-color: #f44336;
+    }
+
+    .heading-style {
+        background: -webkit-linear-gradient(180deg, rgba(255, 31, 38, 1) 0%, rgba(0, 128, 128, 1) 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+// ---------------------Life Style Small Cards--------------
+
+.life-style-row {
+    background-color: #fff;
+    margin: 20px 0 20px;
+}
+.life-style-col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .lifestyle-small-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .life-desc-wrapper {
+        width: 200px;
+
+        .lifestyle-small-desc {
+            line-height: 1.5;
+            font-size: 12px;
+            font-weight: 600;
+            padding-bottom: 10px;
+        }
+
+        .lifestyle-small-auth {
+            color: #979aa4;
+            font-size: 10px;
+        }
     }
 }

@@ -63,9 +63,10 @@ class StyleHunter extends Component {
 
         {/* Smaller Containers */}
 
-        <div className="small-card-wrapper">
+        <div className="row style-hunter-wrapper">
           {smallData.map(item => {
             return (
+              <div key={item.id} className="col-lg-6">
               <Card key={item.id} style={{ width: "22rem" }}>
                 <Card.Img variant="top" src={item.image} />
                 <Card.Body className="card-description">
@@ -83,6 +84,8 @@ class StyleHunter extends Component {
                   <Card.Text>{item.description}</Card.Text>
                 </Card.Body>
               </Card>
+              </div>
+              
             );
           })}
         </div>

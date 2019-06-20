@@ -1,16 +1,18 @@
 import React, { Component } from "react";
 import { Navbar, Nav, Card } from "react-bootstrap";
-import { LifeStyleData } from "../../itemsConfig";
+import { LifeStyleData, LifeStyleSmallCardCol1, LifeStyleSmallCardCol2 } from "../../itemsConfig";
 
 class LifeStyle extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: LifeStyleData
+      data: LifeStyleData,
+      smallDataCol1: LifeStyleSmallCardCol1,
+      smallDataCol2: LifeStyleSmallCardCol2
     };
   }
   render() {
-    const { data } = this.state;
+    const { data  , smallDataCol1, smallDataCol2 } = this.state;
     return (
       <div className="main-page-wrapper">
         <Navbar className="top-section-div">
@@ -57,6 +59,48 @@ class LifeStyle extends Component {
           );
         })}
 
+        <div className="row life-style-row">
+
+          <ul className="col-lg-6">
+            {smallDataCol1.map(item => {
+              return (
+                <li key={item.id} className="life-style-col">
+                  <img
+                    className="lifestyle-small-img"
+                    src={item.photo}
+                    alt=""
+                  />
+                  <div className="life-desc-wrapper">
+                    <p className="lifestyle-small-desc">{item.description}</p>
+                    <span className="lifestyle-small-auth">
+                      {item.authorDetails}
+                    </span>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+
+          <ul className="col-lg-6">
+            {smallDataCol2.map(item => {
+              return (
+                <li key={item.id} className="life-style-col">
+                  <img
+                    className="lifestyle-small-img"
+                    src={item.photo}
+                    alt=""
+                  />
+                  <div className="life-desc-wrapper">
+                    <p className="lifestyle-small-desc">{item.description}</p>
+                    <span className="lifestyle-small-auth">
+                      {item.authorDetails}
+                    </span>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     );
   }

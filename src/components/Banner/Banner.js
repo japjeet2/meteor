@@ -1,26 +1,26 @@
 import React, { Component } from "react";
-import { bannerData } from "./../../itemsConfig";
+import { BannerData } from "../../itemsConfig";
 
-class UpperBanner extends Component {
+class Banner extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: bannerData
+      data: BannerData
     };
   }
   render() {
     const { data } = this.state;
     return (
-      <ul className="upper-banner-wrapper">
+      <ul className="row upper-banner-wrapper">
         {data.map(item => {
           return (
             <li
               key={item.id}
-              className="upper-banner"
+              className="col-lg-4 upper-banner"
               style={{ background: `url(${item.image})` }}
             >
               <div className="details-wrapper">
-                <span className="style-type">{item.style}</span>
+                <span className="upper-banner-style-type" style={{ backgroundColor: `${item.backgroundColor}` }}>{item.style}</span>
                 <span className="views">
                   <i className="fas fa-eye eye-icon" />
                   {item.view}
@@ -38,4 +38,4 @@ class UpperBanner extends Component {
   }
 }
 
-export default UpperBanner;
+export default Banner;

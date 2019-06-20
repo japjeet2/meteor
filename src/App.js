@@ -1,13 +1,13 @@
 import React from "react";
 import UpperHeader from "./components/Navbar/MainHeader";
-import UpperBanner from "./components/Banner/UpperBanner";
+import Banner from "./components/Banner/Banner";
 import Main from "./components/MainPage/Main";
 
 function App() {
   return (
     <div className="App">
       <UpperHeader />
-      <UpperBanner />
+      <Banner />
       <Main />
     </div>
   );
