@@ -1,12 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+$white: #fff;
+$authorTextColor: #979aa4;
+$commonRed: #f44f43;
+$commonPurple: #8a3ab9;
+$offWhite: #f5f5f5;
+$boldFontWeight: 600;
+
+@mixin textGradient {
+    margin: 10px 0 10px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin  borderGradientStyling {
+    border-bottom: 4px solid;
+    border-image: linear-gradient(270deg, rgba(255, 69, 69, 1) 0%, rgba(0, 128, 128, 1) 100%);
+    border-image-slice: 1;
+    margin-bottom: 20px;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
 .upper-banner-wrapper {
-    color: #fff;
+    color: $white;
     width: 100%;
     margin: 0;
     // width: 100%;
@@ -51,22 +71,19 @@
 }
 
 .main-section {
-    // background-color: #f5f5f5;
-    background: #ccc;
+    // background-color: $offWhite;
+    background-color: #ccc;
 }
 
 // --------------Style & Life Cycle Section Division--------------
 
-.main-heading-1 {
-    color: #8a3ab9 !important;
-    font-weight: 600;
+.style-hunter-heading {
+    color: $commonPurple !important;
+    font-weight: $boldFontWeight;
 }
 
 .top-section-div {
-    border-bottom: 4px solid;
-    border-image: linear-gradient(270deg, rgba(255,69,69,1) 0%, rgba(0,128,128,1) 100%);
-    border-image-slice: 1;
-    margin-bottom: 20px;
+    @include borderGradientStyling();
 
     .top-section-nav {
         position: absolute;
@@ -78,22 +95,19 @@
 
 .card-description {
     .style-box {
-        background-color: #8a3ab9;
-        color: #fff;
+        color: $white;
         padding: 3px 5px 3px 30px;
         border-radius: 2px;
         margin: 0 10px 0 -20px;
     }
 
     .heading-style {
-        margin: 10px 0 10px;
         background: -webkit-linear-gradient(180deg, rgba(238, 156, 255, 1) 0%, rgba(0, 128, 128, 1) 100%);
-        background-clip: text;
-        -webkit-text-fill-color: transparent
+        @include textGradient();
     }
 
     .card-author-details {
-        color: #979aa4;
+        color: $authorTextColor;
         font-size: 12px;
     }
 
@@ -107,65 +121,65 @@
 
 // --------------------Small Card Styling----------------
 
-.style-hunter-wrapper {
+.row-wrapper {
     // display: flex;
     // justify-content: space-between;
     margin-top: 30px;
-
-    .style-box {
-        background-color: #dd4c39;
-    }
 }
 
 // -------------Extra Life Style Division Styling-------------
 
-.main-heading-2 {
-    color: #f44f43 !important;
-    font-weight: 600;
+.life-style-heading {
+    color: $commonRed !important;
+    font-weight: $boldFontWeight;
 }
 
 .card-description-2 {
-    .style-box {
-        background-color: #f44336;
-    }
 
     .heading-style {
         background: -webkit-linear-gradient(180deg, rgba(255, 31, 38, 1) 0%, rgba(0, 128, 128, 1) 100%);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
+        @include textGradient()
     }
 }
 
 // ---------------------Life Style Small Cards--------------
 
 .life-style-row {
-    background-color: #fff;
+    background-color: $white;
     margin: 20px 0 20px;
 }
-.life-style-col {
+
+.micro-col {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
 
-    .lifestyle-small-img {
+    .micro-img {
         width: 100px;
         height: 100px;
     }
 
-    .life-desc-wrapper {
+    .micro-desc-wrapper {
         width: 200px;
 
-        .lifestyle-small-desc {
+        .micro-desc {
             line-height: 1.5;
             font-size: 12px;
-            font-weight: 600;
+            font-weight: $boldFontWeight;
             padding-bottom: 10px;
         }
 
-        .lifestyle-small-auth {
-            color: #979aa4;
+        .micro-author {
+            color: $authorTextColor;
             font-size: 10px;
         }
     }
+}
+
+// ----------------Celebrity Styling---------------
+
+.celeb-heading {
+    color: $commonPurple !important;
+    font-weight: $boldFontWeight;
 }

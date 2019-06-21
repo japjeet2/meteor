@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { Navbar, Nav, Card } from "react-bootstrap";
-import { LifeStyleData, LifeStyleSmallCardCol1, LifeStyleSmallCardCol2 } from "../../itemsConfig";
+import {
+  LifeStyleData,
+  LifeStyleSmallCardCol1,
+  LifeStyleSmallCardCol2
+} from "../../itemsConfig";
 
 class LifeStyle extends Component {
   constructor(props) {
@@ -12,11 +16,13 @@ class LifeStyle extends Component {
     };
   }
   render() {
-    const { data  , smallDataCol1, smallDataCol2 } = this.state;
+    const { data, smallDataCol1, smallDataCol2 } = this.state;
     return (
       <div className="main-page-wrapper">
+
+        {/* Life Style Header */}
         <Navbar className="top-section-div">
-          <Navbar.Brand href="#home" className="main-heading-2">
+          <Navbar.Brand href="#home" className="life-style-heading">
             Life Style
           </Navbar.Brand>
           <Nav className="mr-auto top-section-nav">
@@ -42,7 +48,12 @@ class LifeStyle extends Component {
             <Card key={item.id}>
               <Card.Img variant="top" src={item.image} />
               <Card.Body className="card-description card-description-2">
-                <span className="style-box">{item.style}</span>
+                <span
+                  className="style-box"
+                  style={{ backgroundColor: `${item.backgroundColor}` }}
+                >
+                  {item.style}
+                </span>
                 <span className="view-style">
                   <i className="fas fa-eye" />
                   {item.view}
@@ -60,19 +71,18 @@ class LifeStyle extends Component {
         })}
 
         <div className="row life-style-row">
-
           <ul className="col-lg-6">
             {smallDataCol1.map(item => {
               return (
-                <li key={item.id} className="life-style-col">
+                <li key={item.id} className="micro-col">
                   <img
-                    className="lifestyle-small-img"
+                    className="micro-img"
                     src={item.photo}
                     alt=""
                   />
-                  <div className="life-desc-wrapper">
-                    <p className="lifestyle-small-desc">{item.description}</p>
-                    <span className="lifestyle-small-auth">
+                  <div className="micro-desc-wrapper">
+                    <p className="micro-desc">{item.description}</p>
+                    <span className="micro-author">
                       {item.authorDetails}
                     </span>
                   </div>
@@ -84,15 +94,15 @@ class LifeStyle extends Component {
           <ul className="col-lg-6">
             {smallDataCol2.map(item => {
               return (
-                <li key={item.id} className="life-style-col">
+                <li key={item.id} className="micro-col">
                   <img
-                    className="lifestyle-small-img"
+                    className="micro-img"
                     src={item.photo}
                     alt=""
                   />
-                  <div className="life-desc-wrapper">
-                    <p className="lifestyle-small-desc">{item.description}</p>
-                    <span className="lifestyle-small-auth">
+                  <div className="micro-desc-wrapper">
+                    <p className="micro-desc">{item.description}</p>
+                    <span className="micro-author">
                       {item.authorDetails}
                     </span>
                   </div>

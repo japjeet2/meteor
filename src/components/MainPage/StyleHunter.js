@@ -14,10 +14,10 @@ class StyleHunter extends Component {
     const { data, smallData } = this.state;
     return (
       <div className="main-page-wrapper">
-        {/* Main Heading of Component */}
+        {/* Style Hunter Header */}
 
         <Navbar className="top-section-div">
-          <Navbar.Brand href="#home" className="main-heading-1">
+          <Navbar.Brand href="#home" className="style-hunter-heading">
             Style Hunter
           </Navbar.Brand>
 
@@ -44,7 +44,12 @@ class StyleHunter extends Component {
             <Card key={item.id}>
               <Card.Img variant="top" src={item.image} />
               <Card.Body className="card-description">
-                <span className="style-box">{item.style}</span>
+                <span
+                  className="style-box"
+                  style={{ backgroundColor: `${item.backgroundColor}` }}
+                >
+                  {item.style}
+                </span>
                 <span className="view-style">
                   <i className="fas fa-eye" />
                   {item.view}
@@ -63,32 +68,31 @@ class StyleHunter extends Component {
 
         {/* Smaller Containers */}
 
-        <div className="row style-hunter-wrapper">
+        <ul className="row row-wrapper">
           {smallData.map(item => {
             return (
-              <div key={item.id} className="col-lg-6">
-              <Card key={item.id} style={{ width: "22rem" }}>
-                <Card.Img variant="top" src={item.image} />
-                <Card.Body className="card-description">
-                  <span className="style-box">{item.style}</span>
-                  <span className="view-style">
-                    <i className="fas fa-eye" />
-                    {item.view}
-                  </span>
-                  <Card.Title className="heading-style">
-                    {item.heading}
-                  </Card.Title>
-                  <span className="card-author-details">
-                    {item.authorDetails}
-                  </span>
-                  <Card.Text>{item.description}</Card.Text>
-                </Card.Body>
-              </Card>
-              </div>
-              
+              <li key={item.id} className="col-lg-6">
+                <Card key={item.id} style={{ width: "22rem" }}>
+                  <Card.Img variant="top" src={item.image} />
+                  <Card.Body className="card-description">
+                    <span className="style-box" style={{ backgroundColor: `${item.backgroundColor}` }}>{item.style}</span>
+                    <span className="view-style">
+                      <i className="fas fa-eye" />
+                      {item.view}
+                    </span>
+                    <Card.Title className="heading-style">
+                      {item.heading}
+                    </Card.Title>
+                    <span className="card-author-details">
+                      {item.authorDetails}
+                    </span>
+                    <Card.Text>{item.description}</Card.Text>
+                  </Card.Body>
+                </Card>
+              </li>
             );
           })}
-        </div>
+        </ul>
       </div>
     );
   }

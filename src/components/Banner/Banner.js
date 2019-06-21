@@ -20,7 +20,12 @@ class Banner extends Component {
               style={{ background: `url(${item.image})` }}
             >
               <div className="details-wrapper">
-                <span className="upper-banner-style-type" style={{ backgroundColor: `${item.backgroundColor}` }}>{item.style}</span>
+                <span
+                  className="upper-banner-style-type"
+                  style={{ backgroundColor: `${item.backgroundColor}` }}
+                >
+                  {item.style}
+                </span>
                 <span className="views">
                   <i className="fas fa-eye eye-icon" />
                   {item.view}

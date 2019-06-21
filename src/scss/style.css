@@ -30,9 +30,9 @@
   margin: 20px 0 20px; }
 
 .main-section {
-  background: #ccc; }
+  background-color: #ccc; }
 
-.main-heading-1 {
+.style-hunter-heading {
   color: #8a3ab9 !important;
   font-weight: 600; }
 
@@ -47,14 +47,13 @@
     font-size: 14px; }
 
 .card-description .style-box {
-  background-color: #8a3ab9;
   color: #fff;
   padding: 3px 5px 3px 30px;
   border-radius: 2px;
   margin: 0 10px 0 -20px; }
 .card-description .heading-style {
-  margin: 10px 0 10px;
   background: -webkit-linear-gradient(180deg, #ee9cff 0%, teal 100%);
+  margin: 10px 0 10px;
   background-clip: text;
   -webkit-text-fill-color: transparent; }
 .card-description .card-author-details {
@@ -66,19 +65,16 @@
   line-height: 1.5;
   font-size: 14px; }
 
-.style-hunter-wrapper {
+.row-wrapper {
   margin-top: 30px; }
-  .style-hunter-wrapper .style-box {
-    background-color: #dd4c39; }
 
-.main-heading-2 {
+.life-style-heading {
   color: #f44f43 !important;
   font-weight: 600; }
 
-.card-description-2 .style-box {
-  background-color: #f44336; }
 .card-description-2 .heading-style {
   background: -webkit-linear-gradient(180deg, #ff1f26 0%, teal 100%);
+  margin: 10px 0 10px;
   background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -86,23 +82,27 @@
   background-color: #fff;
   margin: 20px 0 20px; }
 
-.life-style-col {
+.micro-col {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 20px; }
-  .life-style-col .lifestyle-small-img {
+  .micro-col .micro-img {
     width: 100px;
     height: 100px; }
-  .life-style-col .life-desc-wrapper {
+  .micro-col .micro-desc-wrapper {
     width: 200px; }
-    .life-style-col .life-desc-wrapper .lifestyle-small-desc {
+    .micro-col .micro-desc-wrapper .micro-desc {
       line-height: 1.5;
       font-size: 12px;
       font-weight: 600;
       padding-bottom: 10px; }
-    .life-style-col .life-desc-wrapper .lifestyle-small-auth {
+    .micro-col .micro-desc-wrapper .micro-author {
       color: #979aa4;
       font-size: 10px; }
+
+.celeb-heading {
+  color: #8a3ab9 !important;
+  font-weight: 600; }
 
 /*# sourceMappingURL=style.css.map */
