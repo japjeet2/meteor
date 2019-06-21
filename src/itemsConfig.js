@@ -225,6 +225,7 @@ export const VideosData = [
   }
 ];
 
+// ---------------Videos Micro Cards--------------
 
 export const VideoSmallCardCol1 = [
   {
@@ -271,3 +272,60 @@ export const VideoSmallCardCol2 = [
     authorDetails: "Jhon  |  2 hours ago"
   }
 ];
+
+// ------------------Right Column Data-----------------
+
+// -------------------Social data--------------
+
+export const SocialData = [
+  {
+    id: 1,
+    view: "736.8k",
+    socialIcon: "fab fa-facebook",
+    backgroundColor: "#3b59a1",
+    title: "Join"
+  },
+
+  {
+    id: 2,
+    view: "145.9k",
+    socialIcon: "fab fa-instagram",
+    backgroundColor: "#46b0e4",
+    title: "Follow"
+  },
+
+  {
+    id: 3,
+    view: "568.4k",
+    socialIcon: "fab fa-pinterest",
+    backgroundColor: "#dd4c39",
+    title: "Tag"
+  },
+
+  {
+    id: 4,
+    view: "254.6k",
+    socialIcon: "fab fa-google-wallet",
+    backgroundColor: "#d71e17",
+    title: "Pay"
+  },
+
+  {
+    id: 5,
+    view: "520.3k",
+    socialIcon: "fab fa-twitter",
+    backgroundColor: "#8a3ab9",
+    title: "Follow"
+  },
+
+  {
+    id: 6,
+    view: "354.2k",
+    socialIcon: "fab fa-youtube",
+    backgroundColor: "#4c75a3",
+    title: "Likes"
+  }
+
+];
+
+

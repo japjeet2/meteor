@@ -3,6 +3,7 @@ import StyleHunter from "./StyleHunter";
 import LifeStyle from "./LifeStyle";
 import Celebrity from "./Celebrity";
 import Videos from "./Videos";
+import Social from "./Social";
 import { Container } from "react-bootstrap";
 
 function Main() {
@@ -17,7 +18,7 @@ function Main() {
             <Videos />
           </div>
           <div className="col-lg-4">
-
+            <Social />
           </div>
         </div>
       </Container>

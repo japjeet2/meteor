@@ -14,7 +14,7 @@ $boldFontWeight: 600;
     -webkit-text-fill-color: transparent;
 }
 
-@mixin  borderGradientStyling {
+@mixin borderGradientStyling {
     border-bottom: 4px solid;
     border-image: linear-gradient(270deg, rgba(255, 69, 69, 1) 0%, rgba(0, 128, 128, 1) 100%);
     border-image-slice: 1;
@@ -187,13 +187,16 @@ $boldFontWeight: 600;
 
 .celeb-micro-col {
     width: 300px;
+
     &:nth-child(1) {
         margin-top: 0;
     }
+
     .micro-img {
         width: 80px;
         height: 80px;
     }
+
     .micro-desc-wrapper {
         .micro-desc {
             line-height: 1.2
@@ -206,4 +209,40 @@ $boldFontWeight: 600;
 .videos-heading {
     color: $commonBlue !important;
     font-weight: $boldFontWeight;
+}
+
+// ------------Social Styling---------
+
+.social-row {
+    margin-top: 20px;
+    .social-wrapper {
+        padding-top: 15px;
+        color: $white;
+        .social-col {
+            width: 115px;
+            height: 165px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            .social-details-wrapper {
+                width: 70%;
+                text-align: center;
+                span {
+                    display: inline-block;
+                }
+                .social-icon {
+                    font-size: 36px;
+                }
+                .social-view {
+                    font-size: 24px;
+                    font-weight: $boldFontWeight;
+                    padding: 15px 0;
+                }
+                .social-title {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
 }

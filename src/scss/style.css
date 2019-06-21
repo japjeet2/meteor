@@ -119,4 +119,29 @@
   color: #2737a0 !important;
   font-weight: 600; }
 
+.social-row {
+  margin-top: 20px; }
+  .social-row .social-wrapper {
+    padding-top: 15px;
+    color: #fff; }
+    .social-row .social-wrapper .social-col {
+      width: 115px;
+      height: 165px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .social-row .social-wrapper .social-col .social-details-wrapper {
+        width: 70%;
+        text-align: center; }
+        .social-row .social-wrapper .social-col .social-details-wrapper span {
+          display: inline-block; }
+        .social-row .social-wrapper .social-col .social-details-wrapper .social-icon {
+          font-size: 36px; }
+        .social-row .social-wrapper .social-col .social-details-wrapper .social-view {
+          font-size: 24px;
+          font-weight: 600;
+          padding: 15px 0; }
+        .social-row .social-wrapper .social-col .social-details-wrapper .social-title {
+          font-size: 20px; }
+
 /*# sourceMappingURL=style.css.map */
