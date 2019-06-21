@@ -210,3 +210,64 @@ export const CelebMicroCard = [
     authorDetails: "Jhon  |  2 hours ago"
   }
 ];
+
+// --------------Video Data--------------
+export const VideosData = [
+  {
+    id: 1,
+    image: "https://i.ibb.co/zRpcdrc/lifestyle.jpg",
+    style: "Vogue",
+    view: "736.8k",
+    backgroundColor: "#f44336",
+    heading: "15 Date Night Outfits Inspired by Celebs",
+    authorDetails: "Jhon  |  2 hours ago",
+    description: "News is a direct tool of influence on public consciousness. The goal of the news is to provide to the society objective information about a particular event or action"
+  }
+];
+
+
+export const VideoSmallCardCol1 = [
+  {
+    id: 1,
+    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    description: "Scarlett’s disappointment at latest accolade",
+    authorDetails: "Jhon  |  2 hours ago"
+  },
+
+  {
+    id: 2,
+    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    description: "Most Beautiful Things to Do in Sidney with Your BF",
+    authorDetails: "Jhon  |  2 hours ago"
+  },
+
+  {
+    id: 3,
+    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    description: "Have Fun in The Morning With a Cup of Coffee",
+    authorDetails: "Jhon  |  2 hours ago"
+  }
+];
+
+export const VideoSmallCardCol2 = [
+  {
+    id: 1,
+    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    description: "Accompany Your Trips, in The Blue Sky",
+    authorDetails: "Jhon  |  2 hours ago"
+  },
+
+  {
+    id: 2,
+    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    description: "Summer Travel Fashion, Your Holiday Choice",
+    authorDetails: "Jhon  |  2 hours ago"
+  },
+
+  {
+    id: 3,
+    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    description: "Life’s challenges force us to harden up",
+    authorDetails: "Jhon  |  2 hours ago"
+  }
+];

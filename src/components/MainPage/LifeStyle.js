@@ -40,7 +40,7 @@ class LifeStyle extends Component {
           </Nav>
         </Navbar>
 
-        {/* Bigger Container */}
+        {/* Life Style Bigger Container */}
 
         {data.map(item => {
           return (

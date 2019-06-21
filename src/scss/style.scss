@@ -4,6 +4,7 @@ $white: #fff;
 $authorTextColor: #979aa4;
 $commonRed: #f44f43;
 $commonPurple: #8a3ab9;
+$commonBlue: #2737a0;
 $offWhite: #f5f5f5;
 $boldFontWeight: 600;
 
@@ -165,7 +166,7 @@ $boldFontWeight: 600;
 
         .micro-desc {
             line-height: 1.5;
-            font-size: 12px;
+            font-size: 14px;
             font-weight: $boldFontWeight;
             padding-bottom: 10px;
         }
@@ -198,4 +199,11 @@ $boldFontWeight: 600;
             line-height: 1.2
         }
     }
+}
+
+// ----------------Videos Styling---------------
+
+.videos-heading {
+    color: $commonBlue !important;
+    font-weight: $boldFontWeight;
 }

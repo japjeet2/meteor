@@ -94,7 +94,7 @@
     width: 200px; }
     .micro-col .micro-desc-wrapper .micro-desc {
       line-height: 1.5;
-      font-size: 12px;
+      font-size: 14px;
       font-weight: 600;
       padding-bottom: 10px; }
     .micro-col .micro-desc-wrapper .micro-author {
@@ -114,5 +114,9 @@
     height: 80px; }
   .celeb-micro-col .micro-desc-wrapper .micro-desc {
     line-height: 1.2; }
+
+.videos-heading {
+  color: #2737a0 !important;
+  font-weight: 600; }
 
 /*# sourceMappingURL=style.css.map */
