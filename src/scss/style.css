@@ -78,7 +78,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-.life-style-row {
+.micro-row {
   background-color: #fff;
   margin: 20px 0 20px; }
 
@@ -86,7 +86,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px; }
+  margin-top: 21px; }
   .micro-col .micro-img {
     width: 100px;
     height: 100px; }
@@ -104,5 +104,15 @@
 .celeb-heading {
   color: #8a3ab9 !important;
   font-weight: 600; }
+
+.celeb-micro-col {
+  width: 300px; }
+  .celeb-micro-col:nth-child(1) {
+    margin-top: 0; }
+  .celeb-micro-col .micro-img {
+    width: 80px;
+    height: 80px; }
+  .celeb-micro-col .micro-desc-wrapper .micro-desc {
+    line-height: 1.2; }
 
 /*# sourceMappingURL=style.css.map */

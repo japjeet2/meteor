@@ -19,7 +19,6 @@ class LifeStyle extends Component {
     const { data, smallDataCol1, smallDataCol2 } = this.state;
     return (
       <div className="main-page-wrapper">
-
         {/* Life Style Header */}
         <Navbar className="top-section-div">
           <Navbar.Brand href="#home" className="life-style-heading">
@@ -70,21 +69,15 @@ class LifeStyle extends Component {
           );
         })}
 
-        <div className="row life-style-row">
+        <div className="row micro-row">
           <ul className="col-lg-6">
             {smallDataCol1.map(item => {
               return (
                 <li key={item.id} className="micro-col">
-                  <img
-                    className="micro-img"
-                    src={item.photo}
-                    alt=""
-                  />
+                  <img className="micro-img" src={item.photo} alt="" />
                   <div className="micro-desc-wrapper">
                     <p className="micro-desc">{item.description}</p>
-                    <span className="micro-author">
-                      {item.authorDetails}
-                    </span>
+                    <span className="micro-author">{item.authorDetails}</span>
                   </div>
                 </li>
               );
@@ -95,16 +88,10 @@ class LifeStyle extends Component {
             {smallDataCol2.map(item => {
               return (
                 <li key={item.id} className="micro-col">
-                  <img
-                    className="micro-img"
-                    src={item.photo}
-                    alt=""
-                  />
+                  <img className="micro-img" src={item.photo} alt="" />
                   <div className="micro-desc-wrapper">
                     <p className="micro-desc">{item.description}</p>
-                    <span className="micro-author">
-                      {item.authorDetails}
-                    </span>
+                    <span className="micro-author">{item.authorDetails}</span>
                   </div>
                 </li>
               );

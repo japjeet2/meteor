@@ -1,17 +1,18 @@
 import React, { Component } from "react";
 import { Navbar, Nav, Card } from "react-bootstrap";
-import { CelebSmallCard, CelebSmallCardCol1 } from "../../itemsConfig";
+import { CelebSmallCard, CelebSmallCardCol1, CelebMicroCard } from "../../itemsConfig";
 
 class Celebrity extends Component {
   constructor(props) {
     super(props);
     this.state = {
       data: CelebSmallCard,
-      singleData: CelebSmallCardCol1
+      singleData: CelebSmallCardCol1,
+      microData: CelebMicroCard
     };
   }
   render() {
-    const { data, singleData } = this.state;
+    const { data, singleData, microData } = this.state;
     return (
       <div>
         {/* Celebrity Header */}
@@ -66,10 +67,11 @@ class Celebrity extends Component {
           })}
         </ul>
 
-        <ul className="row row-wrapper">
+        {/* Celebrity Left Card */}
+        <div className="row row-wrapper">
           {singleData.map(item => {
             return (
-              <li key={item.id} className="col-lg-6">
+              <div key={item.id} className="col-lg-6">
                 <Card key={item.id} style={{ width: "22rem" }}>
                   <Card.Img variant="top" src={item.image} />
                   <Card.Body className="card-description">
@@ -92,11 +94,26 @@ class Celebrity extends Component {
                     <Card.Text>{item.description}</Card.Text>
                   </Card.Body>
                 </Card>
-              </li>
+              </div>
             );
           })}
-        </ul>
 
+          {/* Celebrity Right Micro Column */}
+
+          <ul className="col-lg-6">
+            {microData.map(item => {
+              return (
+                <li key={item.id} className="micro-col celeb-micro-col">
+                  <img className="micro-img" src={item.photo} alt="" />
+                  <div className="micro-desc-wrapper">
+                    <p className="micro-desc">{item.description}</p>
+                    <span className="micro-author">{item.authorDetails}</span>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     );
   }
