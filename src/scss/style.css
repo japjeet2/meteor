@@ -79,7 +79,6 @@
   -webkit-text-fill-color: transparent; }
 
 .micro-row {
-  background-color: #fff;
   margin: 20px 0 20px; }
 
 .micro-col {
@@ -125,8 +124,7 @@
     padding-top: 15px;
     color: #fff; }
     .social-row .social-wrapper .social-col {
-      width: 115px;
-      height: 165px;
+      height: 140px;
       display: flex;
       align-items: center;
       justify-content: center; }
@@ -143,5 +141,57 @@
           padding: 15px 0; }
         .social-row .social-wrapper .social-col .social-details-wrapper .social-title {
           font-size: 20px; }
+
+.post-column {
+  background-color: #fff;
+  margin: 20px 0 0; }
+
+.post-upper-wrapper {
+  margin: 0 auto; }
+  .post-upper-wrapper .post-heading {
+    font-weight: 600;
+    margin: 20px 0 20px; }
+  .post-upper-wrapper .post-image {
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center; }
+    .post-upper-wrapper .post-image .post-details-wrapper {
+      position: absolute;
+      bottom: 10%;
+      width: 90%; }
+      .post-upper-wrapper .post-image .post-details-wrapper .post-style {
+        font-size: 12px;
+        padding: 3px 5px;
+        margin-right: 20px; }
+      .post-upper-wrapper .post-image .post-details-wrapper .post-view {
+        font-size: 12px; }
+      .post-upper-wrapper .post-image .post-details-wrapper .post-description {
+        margin: 10px 0 10px; }
+      .post-upper-wrapper .post-image .post-details-wrapper .post-author {
+        font-size: 12px; }
+
+.post-micro-data {
+  margin: 20px 0; }
+
+.shots-section {
+  color: #fff; }
+  .shots-section .shots-wrapper {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center; }
+  .shots-section .shots-details {
+    width: 80%;
+    height: 100%;
+    position: relative;
+    text-align: center; }
+    .shots-section .shots-details .shots-title {
+      position: absolute;
+      top: 10%;
+      font-size: 36px; }
+    .shots-section .shots-details .shots-desc {
+      position: absolute;
+      bottom: 20%;
+      font-size: 28px; }
 
 /*# sourceMappingURL=style.css.map */

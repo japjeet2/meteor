@@ -328,4 +328,100 @@ export const SocialData = [
 
 ];
 
+// -----------------Popular Post Data ---------\
 
+export const PopularPostMain = [
+  {
+    id: 1,
+    heading: "Popular Post",
+    backgroundImage: "https://i.ibb.co/JFggz6x/a1.jpg",
+    style: "Vogue",
+    backgroundColor: "#8a3ab9",
+    view: "36.6k",
+    description: "What to Wear: 9+ Cute Work Outfits to Wear This Summer",
+    authorDetails: "Jhon  |  2 hours ago"
+  }
+];
+
+// -------------Popular Post MicroData-------------
+
+export const PostMicroCard = [
+  {
+    id: 1,
+    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    description: "Scarlett’s disappointment at latest accolade",
+    authorDetails: "Jhon  |  2 hours ago"
+  },
+
+  {
+    id: 2,
+    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    description: "Most Beautiful Things to Do in Sidney with Your BF",
+    authorDetails: "Jhon  |  2 hours ago"
+  },
+
+  {
+    id: 3,
+    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    description: "Have Fun in The Morning With a Cup of Coffee",
+    authorDetails: "Jhon  |  2 hours ago"
+  },
+
+  {
+    id: 4,
+    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    description: "Have Fun in The Morning With a Cup of Coffee",
+    authorDetails: "Jhon  |  2 hours ago"
+  },
+
+  {
+    id: 5,
+    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    description: "Have Fun in The Morning With a Cup of Coffee",
+    authorDetails: "Jhon  |  2 hours ago"
+  }
+];
+
+// --------------Amazing Shots Section----------------
+
+export const AmazingShotsData = [
+  {
+    id: 1,
+    title: "That is an amazing shot",
+    // backgroundImage: "https://i.ibb.co/JFggz6x/a1.jpg",
+    backgroundColor: "#4c75a3",
+    description: "Follow us on Instagram to get latest inspiration of fashion.",
+  },
+
+  {
+    id: 2,
+    title: "That is an amazing shot",
+    // backgroundImage: "https://i.ibb.co/JFggz6x/a1.jpg",
+    backgroundColor: "#4c75a3",
+    description: "Follow us on Instagram to get latest inspiration of fashion.",
+  },
+
+  {
+    id: 3,
+    title: "That is an amazing shot",
+    // backgroundImage: "https://i.ibb.co/JFggz6x/a1.jpg",
+    backgroundColor: "#4c75a3",
+    description: "Follow us on Instagram to get latest inspiration of fashion.",
+  },
+
+  {
+    id: 4,
+    title: "That is an amazing shot",
+    // backgroundImage: "https://i.ibb.co/JFggz6x/a1.jpg",
+    backgroundColor: "#4c75a3",
+    description: "Follow us on Instagram to get latest inspiration of fashion.",
+  },
+
+  {
+    id: 5,
+    title: "That is an amazing shot",
+    // backgroundImage: "https://i.ibb.co/JFggz6x/a1.jpg",
+    backgroundColor: "#4c75a3",
+    description: "Follow us on Instagram to get latest inspiration of fashion.",
+  }
+];

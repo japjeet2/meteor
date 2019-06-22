@@ -71,7 +71,7 @@ class StyleHunter extends Component {
         <ul className="row row-wrapper">
           {smallData.map(item => {
             return (
-              <li key={item.id} className="col-lg-6">
+              <li key={item.id} className="col-sm-6">
                 <Card key={item.id} style={{ width: "22rem" }}>
                   <Card.Img variant="top" src={item.image} />
                   <Card.Body className="card-description">

@@ -70,7 +70,7 @@ class LifeStyle extends Component {
         })}
 
         <div className="row micro-row">
-          <ul className="col-lg-6">
+          <ul className="col-sm-6">
             {smallDataCol1.map(item => {
               return (
                 <li key={item.id} className="micro-col">
@@ -84,7 +84,7 @@ class LifeStyle extends Component {
             })}
           </ul>
 
-          <ul className="col-lg-6">
+          <ul className="col-sm-6">
             {smallDataCol2.map(item => {
               return (
                 <li key={item.id} className="micro-col">

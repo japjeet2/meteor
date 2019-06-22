@@ -4,24 +4,27 @@ import LifeStyle from "./LifeStyle";
 import Celebrity from "./Celebrity";
 import Videos from "./Videos";
 import Social from "./Social";
-import { Container } from "react-bootstrap";
+import PopularPost from "./PopularPost";
+import AmazingShots from "./AmazingShots";
 
 function Main() {
   return (
     <div className="main-section">
-      <Container>
+      <div className="container">
         <div className="row">
-          <div className="col-lg-8">
+          <div className="col-sm-8">
             <StyleHunter />
             <LifeStyle />
             <Celebrity />
             <Videos />
           </div>
-          <div className="col-lg-4">
+          <div className="col-sm-4">
             <Social />
+            <PopularPost />
+            <AmazingShots />
           </div>
         </div>
-      </Container>
+      </div>
     </div>
   );
 }

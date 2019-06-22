@@ -39,7 +39,7 @@ class Celebrity extends Component {
         <ul className="row row-wrapper">
           {data.map(item => {
             return (
-              <li key={item.id} className="col-lg-6">
+              <li key={item.id} className="col-sm-6">
                 <Card key={item.id} style={{ width: "22rem" }}>
                   <Card.Img variant="top" src={item.image} />
                   <Card.Body className="card-description">
@@ -71,7 +71,7 @@ class Celebrity extends Component {
         <div className="row row-wrapper">
           {singleData.map(item => {
             return (
-              <div key={item.id} className="col-lg-6">
+              <div key={item.id} className="col-sm-6">
                 <Card key={item.id} style={{ width: "22rem" }}>
                   <Card.Img variant="top" src={item.image} />
                   <Card.Body className="card-description">
@@ -100,7 +100,7 @@ class Celebrity extends Component {
 
           {/* Celebrity Right Micro Column */}
 
-          <ul className="col-lg-6">
+          <ul className="col-sm-6">
             {microData.map(item => {
               return (
                 <li key={item.id} className="micro-col celeb-micro-col">

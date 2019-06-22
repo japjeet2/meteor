@@ -14,7 +14,7 @@ class Social extends Component {
       <ul className="row social-row">
         {data.map(item => {
           return (
-            <li className="col-lg-4 social-wrapper">
+            <li key={item.id} className="col-sm-4 social-wrapper">
               <div
                 className="social-col"
                 style={{ backgroundColor: `${item.backgroundColor}` }}

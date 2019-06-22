@@ -16,7 +16,7 @@ class Banner extends Component {
           return (
             <li
               key={item.id}
-              className="col-lg-4 upper-banner"
+              className="col-sm-4 upper-banner"
               style={{ background: `url(${item.image})` }}
             >
               <div className="details-wrapper">

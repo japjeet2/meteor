@@ -146,7 +146,7 @@ $boldFontWeight: 600;
 // ---------------------Life Style Small Cards--------------
 
 .micro-row {
-    background-color: $white;
+    // background-color: $white;
     margin: 20px 0 20px;
 }
 
@@ -215,34 +215,118 @@ $boldFontWeight: 600;
 
 .social-row {
     margin-top: 20px;
+
     .social-wrapper {
         padding-top: 15px;
         color: $white;
+
         .social-col {
-            width: 115px;
-            height: 165px;
+            // width: 115px;
+            height: 140px;
             display: flex;
             align-items: center;
             justify-content: center;
-            
+
             .social-details-wrapper {
                 width: 70%;
                 text-align: center;
+
                 span {
                     display: inline-block;
                 }
+
                 .social-icon {
                     font-size: 36px;
                 }
+
                 .social-view {
                     font-size: 24px;
                     font-weight: $boldFontWeight;
                     padding: 15px 0;
                 }
+
                 .social-title {
                     font-size: 20px;
                 }
             }
+        }
+    }
+}
+
+// -----------------Popular Post---------------
+
+.post-column {
+    background-color: $white;
+    margin: 20px 0 0;
+}
+
+.post-upper-wrapper {
+    margin: 0 auto;
+
+    .post-heading {
+        font-weight: $boldFontWeight;
+        margin: 20px 0 20px;
+    }
+
+    .post-image {
+        color: $white;
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        .post-details-wrapper {
+            position: absolute;
+            bottom: 10%;
+            width: 90%;
+
+            .post-style {
+                font-size: 12px;
+                padding: 3px 5px;
+                margin-right: 20px;
+            }
+
+            .post-view {
+                font-size: 12px;
+            }
+
+            .post-description {
+                margin: 10px 0 10px;
+            }
+
+            .post-author {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.post-micro-data {
+    margin: 20px 0;
+}
+
+// -------------Amazing Shots Styling-------------
+
+.shots-section {
+    color: $white;
+    .shots-wrapper {
+        margin: 40px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .shots-details {
+        width: 80%;
+        height: 100%;
+        position: relative;
+        text-align: center;
+        .shots-title {
+            position: absolute;
+            top: 10%;
+            font-size: 36px;
+        }
+        .shots-desc {
+            position: absolute;
+            bottom: 20%;
+            font-size: 28px;
         }
     }
 }
