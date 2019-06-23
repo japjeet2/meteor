@@ -40,7 +40,7 @@ class Celebrity extends Component {
           {data.map(item => {
             return (
               <li key={item.id} className="col-sm-6">
-                <Card key={item.id} style={{ width: "22rem" }}>
+                <Card className="small-cards" key={item.id} style={{ width: "22rem" }}>
                   <Card.Img variant="top" src={item.image} />
                   <Card.Body className="card-description">
                     <span
@@ -100,7 +100,7 @@ class Celebrity extends Component {
 
           {/* Celebrity Right Micro Column */}
 
-          <ul className="col-sm-6">
+          <ul className="col-sm-6 micro-cards">
             {microData.map(item => {
               return (
                 <li key={item.id} className="micro-col celeb-micro-col">

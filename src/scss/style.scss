@@ -432,11 +432,8 @@ button {
 
 // -----------------Media Query--------------
 
-@media only screen and (max-width: 375px) {
-body {
-    max-width: 375px;
-    width: 100%;
-}
+@media only screen and (max-width: 600px) {
+    // ------------Header Navbar Styling------------
 
     .upper-header {
         display: none;
@@ -446,12 +443,45 @@ body {
         margin: 0;
     }
 
+    // ------------Bannar Styling----------
+
     .upper-banner {
         height: 450px !important;
+
         .details-wrapper {
             padding-left: 10px !important;
             max-width: 300px !important;
-            
+
         }
     }
+
+    // -------------Commamon Navigation Styling------------
+    .top-section-div {
+        padding: 0 !important;
+
+        .top-section-nav {
+            font-size: 12px !important;
+        }
+    }
+    // ----------------Small Cards Styling----------
+    .row-wrapper {
+        .small-cards {
+            margin-top: 20px;
+        }
+    }
+
+    // -------------CeleBrity Micro Columns------------
+
+    .micro-cards {
+        margin: 20px 0;
+        padding: 0 25px;
+    }
+
+    // ------------Social Styling-----------
+
+    .social-row {
+        display: none;
+    }
+
+
 }

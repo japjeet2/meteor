@@ -250,11 +250,7 @@ button {
     line-height: 1.8;
     font-size: 0.95em; }
 
-@media only screen and (max-width: 375px) {
-  body {
-    max-width: 375px;
-    width: 100%; }
-
+@media only screen and (max-width: 600px) {
   .upper-header {
     display: none; }
 
@@ -265,6 +261,21 @@ button {
     height: 450px !important; }
     .upper-banner .details-wrapper {
       padding-left: 10px !important;
-      max-width: 300px !important; } }
+      max-width: 300px !important; }
+
+  .top-section-div {
+    padding: 0 !important; }
+    .top-section-div .top-section-nav {
+      font-size: 12px !important; }
+
+  .row-wrapper .small-cards {
+    margin-top: 20px; }
+
+  .micro-cards {
+    margin: 20px 0;
+    padding: 0 25px; }
+
+  .social-row {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
