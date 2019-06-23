@@ -425,3 +425,12 @@ export const AmazingShotsData = [
     description: "Follow us on Instagram to get latest inspiration of fashion.",
   }
 ];
+
+// --------------Footer description------------
+
+export const FooterData = [
+  {
+    id: 1,
+    description: "meteor is your news, entertainment, music fashion website. We provide you with the latest breaking news and videos straight from the entertainment industry."
+  }
+];

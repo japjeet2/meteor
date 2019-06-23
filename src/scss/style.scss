@@ -26,11 +26,14 @@ $boldFontWeight: 600;
     font-family: 'Open Sans', sans-serif;
 }
 
-* {
+button {
     box-shadow: 0px 0px 0px transparent;
     border: 0px solid transparent;
     text-shadow: 0px 0px 0px transparent;
+    background-color: inherit;
 }
+
+
 
 .upper-banner-wrapper {
     color: $white;
@@ -65,7 +68,7 @@ $boldFontWeight: 600;
             }
 
             .description {
-                font-size: 18px;
+                font-size: 1.5em;
                 margin: 20px 0 10px;
             }
         }
@@ -354,27 +357,67 @@ $boldFontWeight: 600;
 
 .foot-top-wrapper {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
     padding: 5% 0;
+    // border-bottom: 1px solid #ccc;
 
     .foot-top-heading {
         font-size: 2.25em;
         font-weight: $boldFontWeight;
 
         button {
-            background-color: #090e1d;
             color: $white;
         }
     }
 
     .foot-top-list {
-        width: 70%;
+
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         color: #8f95aa;
+        font-size: 0.85em;
 
     }
 }
+
+// ---------------------Footer Middle------------
+
+.foot-mid-main {
+    color: #8f95aa;
+    .foot-left-col{
+        .footer-description {
+            line-height: 1.5;
+        }
+        .foot-social-icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-top: 5%;
+            width: 90%;
+            li {
+                color: $white;
+                padding: 0 5%;
+                height: 45px;
+                display: flex;
+                align-items: center;
+            }
+        }
+        
+    }
+    .foot-mid-list-wrapper {
+
+        li {
+            line-height: 1.8;
+            font-size: 0.95em;
+        }
+    }
+}
+
+// -----------------Media Query--------------
+
+@media only screen and (max-width: 375px) {
+    .upper-header {
+      display: none;
+    }
+  }
