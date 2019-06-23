@@ -12,9 +12,7 @@ class UpperHeader extends Component {
               <Nav.Link href="#">New York</Nav.Link>
               <Nav.Link href="#">Monday, 6 March</Nav.Link>
               <Nav.Link href="#">Blog</Nav.Link>
-              <Nav.Link href="#">Fo{/* <Nav.Link href="#search" className="mr-auto">
-                <i className="fas fa-search" />
-              </Nav.Link> */}rum</Nav.Link>
+              <Nav.Link href="#">Forum</Nav.Link>
               <Nav.Link href="#">Contact</Nav.Link>
               <Nav.Link href="#">Buy Now !</Nav.Link>
             </Nav>

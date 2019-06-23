@@ -25,7 +25,7 @@ export const BannerData = [
     style: "Fashion",
     view: "226.36k",
     backgroundColor: "#3b59a1",
-    description: "What to Wear: 9+ Cute Work Outfits to Wear This Summer",
+    description: "Congress Is About To Hand Over Your Personal Browsing Data",
     authorDetails: "Jhon  |  2 hours ago"
   }
 ];

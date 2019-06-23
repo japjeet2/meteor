@@ -9,27 +9,34 @@ button {
   text-shadow: 0px 0px 0px transparent;
   background-color: inherit; }
 
+.main-heading {
+  margin-left: -10px; }
+
+.navbar-search {
+  margin-left: 130px; }
+
 .upper-banner-wrapper {
   color: #fff;
   width: 100%;
   margin: 0;
   position: relative; }
   .upper-banner-wrapper .upper-banner {
-    height: 550px;
-    display: flex; }
+    height: 550px; }
     .upper-banner-wrapper .upper-banner .details-wrapper {
       position: absolute;
       bottom: 15px;
-      width: 400px;
-      padding-left: 30px; }
+      max-width: 400px;
+      width: 100%;
+      padding-left: 30px;
+      font-size: 14px; }
       .upper-banner-wrapper .upper-banner .details-wrapper .upper-banner-style-type {
         margin-right: 10px;
         padding: 5px;
         border-radius: 5px; }
       .upper-banner-wrapper .upper-banner .details-wrapper .views .eye-icon {
-        padding: 0 10px 0; }
+        padding: 0 5px 0; }
       .upper-banner-wrapper .upper-banner .details-wrapper .description {
-        font-size: 1.5em;
+        font-size: 18px;
         margin: 20px 0 10px; }
 
 .main-page-wrapper {
@@ -244,7 +251,20 @@ button {
     font-size: 0.95em; }
 
 @media only screen and (max-width: 375px) {
+  body {
+    max-width: 375px;
+    width: 100%; }
+
   .upper-header {
-    display: none; } }
+    display: none; }
+
+  .navbar-search {
+    margin: 0; }
+
+  .upper-banner {
+    height: 450px !important; }
+    .upper-banner .details-wrapper {
+      padding-left: 10px !important;
+      max-width: 300px !important; } }
 
 /*# sourceMappingURL=style.css.map */
