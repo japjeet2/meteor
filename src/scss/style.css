@@ -9,6 +9,13 @@ button {
   text-shadow: 0px 0px 0px transparent;
   background-color: inherit; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:hover {
+    text-decoration: none;
+    color: inherit; }
+
 .main-heading {
   margin-left: -10px; }
 
@@ -215,20 +222,15 @@ button {
   color: #fff; }
 
 .foot-top-wrapper {
-  display: flex;
-  align-items: center;
-  padding: 5% 0; }
+  padding: 20px 0; }
   .foot-top-wrapper .foot-top-heading {
     font-size: 2.25em;
     font-weight: 600; }
     .foot-top-wrapper .foot-top-heading button {
       color: #fff; }
   .foot-top-wrapper .foot-top-list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     color: #8f95aa;
-    font-size: 0.85em; }
+    font-size: 14px; }
 
 .foot-mid-main {
   color: #8f95aa; }
@@ -249,6 +251,16 @@ button {
   .foot-mid-main .foot-mid-list-wrapper li {
     line-height: 1.8;
     font-size: 0.95em; }
+
+.foot-bottom {
+  padding: 20px 0;
+  font-size: 10px; }
+  .foot-bottom .foot-bottom-title span {
+    color: #f44336;
+    text-decoration: underline; }
+  .foot-bottom .foot-bottom-detail {
+    text-align: right;
+    line-height: 1.5; }
 
 @media only screen and (max-width: 600px) {
   .upper-header {
