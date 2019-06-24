@@ -58,25 +58,19 @@ a {
     color: $white;
     width: 100%;
     margin: 0;
-    // width: 100%;
-    // display: flex;
     position: relative;
 
     .upper-banner {
         height: 550px;
-        // width: 33.33%;
-        // display: flex;
 
         .details-wrapper {
             position: absolute;
             bottom: 15px;
             max-width: 400px;
-            width: 100%;
             padding-left: 30px;
             font-size: 14px;
 
             .upper-banner-style-type {
-                // background-color: #dd4c39;
                 margin-right: 10px;
                 padding: 5px;
                 border-radius: 5px;
@@ -512,10 +506,79 @@ a {
         text-align: center;
 
         .foot-nav {
-            font-size: 20px !important;
+            // font-size: 20px !important;
             padding: 10px 0;
         }
     }
 
+    // -----------Footer Middle----------
+
+    .foot-left-col {
+        text-align: center;
+
+        .foot-social-icons {
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+
+    .foot-mid-list-wrapper {
+        display: none;
+    }
+
+    // ----------Footer Bottom--------
+
+    .foot-bottom-title {
+        text-align: center;
+    }
+
+    .foot-bottom-detail {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    // -----------Upper Banner--------
+    .upper-banner-wrapper {
+        .upper-banner {
+                .details-wrapper {
+                    padding: 0;
+                }
+        }
+    }
+
+    // ----------Social Stying------
+    .social-col {
+        height: 120px !important    ;
+        .social-icon {
+            font-size: 28px !important;
+        }
+
+        .social-view {
+            font-size: 18px !important;
+        }
+
+        .social-title {
+            font-size: 16px !important;
+        }
+    }
+
+    // -----------Common Description Class------------
+
+    .common-desc {
+        padding-left: 20px;
+    }
+
+    // -------Common Author-------
+
+    .common-author {
+        padding-left: 20px;
+    }
+
+    // ----------Popular Post-----------
+    .post-column {
+        display: none;
+    }
 
 }

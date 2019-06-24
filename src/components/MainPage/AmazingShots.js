@@ -19,7 +19,7 @@ class AmazingShots extends Component {
               key={item.id}
               className="shots-wrapper"
               style={{
-                backgroundColor: `${item.backgroundColor}`,
+                backgroundImage: `url(${item.backgroundImage})`,
                 height: "440px"
               }}
             >

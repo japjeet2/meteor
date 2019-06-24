@@ -334,7 +334,7 @@ export const PopularPostMain = [
   {
     id: 1,
     heading: "Popular Post",
-    backgroundImage: "https://i.ibb.co/JFggz6x/a1.jpg",
+    backgroundImage: "https://i.ibb.co/MNT7Nzc/a6.jpg",
     style: "Vogue",
     backgroundColor: "#8a3ab9",
     view: "36.6k",
@@ -388,40 +388,35 @@ export const AmazingShotsData = [
   {
     id: 1,
     title: "That is an amazing shot",
-    // backgroundImage: "https://i.ibb.co/JFggz6x/a1.jpg",
-    backgroundColor: "#4c75a3",
+    backgroundImage: "https://i.ibb.co/8Kw8QkN/a2.jpg",
     description: "Follow us on Instagram to get latest inspiration of fashion.",
   },
 
   {
     id: 2,
     title: "That is an amazing shot",
-    // backgroundImage: "https://i.ibb.co/JFggz6x/a1.jpg",
-    backgroundColor: "#4c75a3",
+    backgroundImage: "https://i.ibb.co/0fsv1vV/a4.jpg",
     description: "Follow us on Instagram to get latest inspiration of fashion.",
   },
 
   {
     id: 3,
     title: "That is an amazing shot",
-    // backgroundImage: "https://i.ibb.co/JFggz6x/a1.jpg",
-    backgroundColor: "#4c75a3",
+    backgroundImage: "https://i.ibb.co/2hvFTwJ/a3.jpg",
     description: "Follow us on Instagram to get latest inspiration of fashion.",
   },
 
   {
     id: 4,
     title: "That is an amazing shot",
-    // backgroundImage: "https://i.ibb.co/JFggz6x/a1.jpg",
-    backgroundColor: "#4c75a3",
+    backgroundImage: "https://i.ibb.co/8dmXVPP/a5.jpg",
     description: "Follow us on Instagram to get latest inspiration of fashion.",
   },
 
   {
     id: 5,
     title: "That is an amazing shot",
-    // backgroundImage: "https://i.ibb.co/JFggz6x/a1.jpg",
-    backgroundColor: "#4c75a3",
+    backgroundImage: "https://i.ibb.co/WBWfvr7/a1.jpg",
     description: "Follow us on Instagram to get latest inspiration of fashion.",
   }
 ];

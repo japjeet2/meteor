@@ -33,7 +33,6 @@ a {
       position: absolute;
       bottom: 15px;
       max-width: 400px;
-      width: 100%;
       padding-left: 30px;
       font-size: 14px; }
       .upper-banner-wrapper .upper-banner .details-wrapper .upper-banner-style-type {
@@ -294,7 +293,42 @@ a {
   .foot-top-wrapper {
     text-align: center; }
     .foot-top-wrapper .foot-nav {
-      font-size: 20px !important;
-      padding: 10px 0; } }
+      padding: 10px 0; }
+
+  .foot-left-col {
+    text-align: center; }
+    .foot-left-col .foot-social-icons {
+      text-align: center;
+      margin: 0 auto; }
+
+  .foot-mid-list-wrapper {
+    display: none; }
+
+  .foot-bottom-title {
+    text-align: center; }
+
+  .foot-bottom-detail {
+    text-align: center !important; } }
+@media only screen and (max-width: 1024px) {
+  .upper-banner-wrapper .upper-banner .details-wrapper {
+    padding: 0; }
+
+  .social-col {
+    height: 120px !important; }
+    .social-col .social-icon {
+      font-size: 28px !important; }
+    .social-col .social-view {
+      font-size: 18px !important; }
+    .social-col .social-title {
+      font-size: 16px !important; }
+
+  .common-desc {
+    padding-left: 20px; }
+
+  .common-author {
+    padding-left: 20px; }
+
+  .post-column {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

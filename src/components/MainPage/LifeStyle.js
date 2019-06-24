@@ -76,8 +76,8 @@ class LifeStyle extends Component {
                 <li key={item.id} className="micro-col">
                   <img className="micro-img" src={item.photo} alt="" />
                   <div className="micro-desc-wrapper">
-                    <p className="micro-desc">{item.description}</p>
-                    <span className="micro-author">{item.authorDetails}</span>
+                    <p className="micro-desc common-desc">{item.description}</p>
+                    <span className="micro-author common-author">{item.authorDetails}</span>
                   </div>
                 </li>
               );
@@ -90,8 +90,8 @@ class LifeStyle extends Component {
                 <li key={item.id} className="micro-col">
                   <img className="micro-img" src={item.photo} alt="" />
                   <div className="micro-desc-wrapper">
-                    <p className="micro-desc">{item.description}</p>
-                    <span className="micro-author">{item.authorDetails}</span>
+                    <p className="micro-desc common-desc">{item.description}</p>
+                    <span className="micro-author common-author">{item.authorDetails}</span>
                   </div>
                 </li>
               );

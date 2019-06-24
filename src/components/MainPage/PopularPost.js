@@ -55,7 +55,7 @@ class PopularPost extends Component {
                   <img className="micro-img" src={item.photo} alt="" />
                   <div className="micro-desc-wrapper">
                     <p className="micro-desc">{item.description}</p>
-                    <span className="micro-author">{item.authorDetails}</span>
+                    <span className="micro-author common-author">{item.authorDetails}</span>
                   </div>
                 </li>
               );
