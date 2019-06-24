@@ -309,6 +309,41 @@ a {
 
   .foot-bottom-detail {
     text-align: center !important; } }
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+  .description {
+    font-size: 14px !important; }
+
+  .upper-header-links {
+    font-size: 14px !important; }
+
+  .micro-desc-wrapper .micro-desc {
+    font-size: 10px !important; }
+
+  .heading-style {
+    font-size: 14px !important; }
+
+  .shots-wrapper {
+    height: 300px !important; }
+    .shots-wrapper .shots-title {
+      font-size: 28px !important; }
+    .shots-wrapper .shots-desc {
+      font-size: 22px !important; }
+
+  .social-row {
+    display: none; }
+
+  .footer-description {
+    line-height: 1.0 !important; }
+
+  .card-text {
+    line-height: 1.0 !important; }
+
+  .micro-img {
+    height: 65px !important;
+    width: 65px !important; }
+
+  .micro-col {
+    width: 210px !important; } }
 @media only screen and (max-width: 1024px) {
   .upper-banner-wrapper .upper-banner .details-wrapper {
     padding: 0; }

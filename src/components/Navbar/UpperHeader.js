@@ -8,13 +8,13 @@ class UpperHeader extends Component {
         <Navbar bg="dark" variant="dark">
           <div className="container">
             <Nav className="mr-auto">
-              <Nav.Link href="#home">-5 C</Nav.Link>
-              <Nav.Link href="#">New York</Nav.Link>
-              <Nav.Link href="#">Monday, 6 March</Nav.Link>
-              <Nav.Link href="#">Blog</Nav.Link>
-              <Nav.Link href="#">Forum</Nav.Link>
-              <Nav.Link href="#">Contact</Nav.Link>
-              <Nav.Link href="#">Buy Now !</Nav.Link>
+              <Nav.Link className="upper-header-links" href="#home">-5 C</Nav.Link>
+              <Nav.Link className="upper-header-links" href="#">New York</Nav.Link>
+              <Nav.Link className="upper-header-links" href="#">Monday, 6 March</Nav.Link>
+              <Nav.Link className="upper-header-links" href="#">Blog</Nav.Link>
+              <Nav.Link className="upper-header-links" href="#">Forum</Nav.Link>
+              <Nav.Link className="upper-header-links" href="#">Contact</Nav.Link>
+              <Nav.Link className="upper-header-links" href="#">Buy Now !</Nav.Link>
             </Nav>
 
             <Nav className="mr-auto">
