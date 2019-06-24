@@ -40,7 +40,7 @@ class Celebrity extends Component {
           {data.map(item => {
             return (
               <li key={item.id} className="col-sm-6">
-                <Card className="small-cards" key={item.id} style={{ width: "22rem" }}>
+                <Card className="small-cards" key={item.id} style={{ width: "" }}>
                   <Card.Img variant="top" src={item.image} />
                   <Card.Body className="card-description">
                     <span
@@ -72,7 +72,7 @@ class Celebrity extends Component {
           {singleData.map(item => {
             return (
               <div key={item.id} className="col-sm-6">
-                <Card key={item.id} style={{ width: "22rem" }}>
+                <Card key={item.id} style={{ width: "" }}>
                   <Card.Img variant="top" src={item.image} />
                   <Card.Body className="card-description">
                     <span

@@ -222,7 +222,7 @@ a {
   color: #fff; }
 
 .foot-top-wrapper {
-  padding: 20px 0; }
+  padding: 30px 0; }
   .foot-top-wrapper .foot-top-heading {
     font-size: 2.25em;
     font-weight: 600; }
@@ -230,7 +230,8 @@ a {
       color: #fff; }
   .foot-top-wrapper .foot-top-list {
     color: #8f95aa;
-    font-size: 14px; }
+    font-size: 14px;
+    padding-top: 20px; }
 
 .foot-mid-main {
   color: #8f95aa; }
@@ -288,6 +289,12 @@ a {
     padding: 0 25px; }
 
   .social-row {
-    display: none; } }
+    display: none; }
+
+  .foot-top-wrapper {
+    text-align: center; }
+    .foot-top-wrapper .foot-nav {
+      font-size: 20px !important;
+      padding: 10px 0; } }
 
 /*# sourceMappingURL=style.css.map */

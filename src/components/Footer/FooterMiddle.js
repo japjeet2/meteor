@@ -47,43 +47,43 @@ class FooterMiddle extends Component {
           <ul className="row foot-mid-list-wrapper">
             <li className="col-sm-3">
               <ul>
-                <li>Business</li>
-                <li>Culture</li>
-                <li>Gadget</li>
-                <li>Future</li>
-                <li>Startups</li>
+                <li><a href="/">Business</a></li>
+                <li><a href="/">Culture</a></li>
+                <li><a href="/">Gadgets</a></li>
+                <li><a href="/">Future</a></li>
+                <li><a href="/">Startups</a></li>
               </ul>
             </li>
 
             <li className="col-sm-3">
               <ul>
-                <li>Stars</li>
-                <li>Screen</li>
-                <li>Binge</li>
-                <li>Culture</li>
-                <li>Media</li>
+                <li><a href="/">Starts</a></li>
+                <li><a href="/">Screen</a></li>
+                <li><a href="/">Business</a></li>
+                <li><a href="/">Culture</a></li>
+                <li><a href="/">Media</a></li>
               </ul>
             </li>
 
             <li className="col-sm-3">
               <ul>
-                <li>45</li>
-                <li>Congress</li>
-                <li>SecruityT</li>
-                <li>he Nine</li>
-                <li>Trumpmerica</li>
+                <li><a href="/">45</a></li>
+                <li><a href="/">Congress</a></li>
+                <li><a href="/">SecurityT</a></li>
+                <li><a href="/">Business</a></li>
+                <li><a href="/">Trumpmerica</a></li>
               </ul>
             </li>
 
             <li className="col-sm-3">
               <ul>
-                <li>Video</li>
-                <li>Video News</li>
-                <li>Feature Shows</li>
-                <li>HLN</li>
-                <li>TV Shows</li>
-                <li>TV Schedule</li>
-                <li>Faces of CNN Worldwide</li>
+                <li><a href="/">Business</a></li>
+                <li><a href="/">Video News</a></li>
+                <li><a href="/">Business</a></li>
+                <li><a href="/">Business</a></li>
+                <li><a href="/">Business</a></li>
+                <li><a href="/">Business</a></li>
+                <li><a href="/">Business</a></li>
               </ul>
             </li>
           </ul>

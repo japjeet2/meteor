@@ -72,7 +72,7 @@ class StyleHunter extends Component {
           {smallData.map(item => {
             return (
               <li key={item.id} className="col-sm-6">
-                <Card className="small-cards" key={item.id} style={{ width: "22rem" }}>
+                <Card className="small-cards" key={item.id} style={{ width: "" }}>
                   <Card.Img variant="top" src={item.image} />
                   <Card.Body className="card-description">
                     <span className="style-box" style={{ backgroundColor: `${item.backgroundColor}` }}>{item.style}</span>
