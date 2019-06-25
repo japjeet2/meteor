@@ -23,7 +23,7 @@ $boldFontWeight: 600;
 
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    // font-family: 'Open Sans', sans-serif;
 }
 
 button {
@@ -537,99 +537,99 @@ a {
     }
 }
 
-@media only screen and (min-width:376px) and (max-width: 768px) { 
+// @media only screen and (min-width:376px) and (max-width: 768px) { 
     
-    .description {
-        font-size: 14px !important;
-    }
-    .upper-header-links {
-        font-size: 14px !important;
-    }
+//     .description {
+//         font-size: 14px !important;
+//     }
+//     .upper-header-links {
+//         font-size: 14px !important;
+//     }
 
-    .micro-desc-wrapper {
-        .micro-desc {
-            font-size: 10px !important;
-        }
-    }
+//     .micro-desc-wrapper {
+//         .micro-desc {
+//             font-size: 10px !important;
+//         }
+//     }
 
-    .heading-style {
-        font-size: 14px !important;
-    }
+//     .heading-style {
+//         font-size: 14px !important;
+//     }
 
-    .shots-wrapper {
-        height: 300px !important;
-        .shots-title {
-            font-size: 28px !important;
-        }
-        .shots-desc {
-            font-size: 22px !important;
-        }
-    }
+//     .shots-wrapper {
+//         height: 300px !important;
+//         .shots-title {
+//             font-size: 28px !important;
+//         }
+//         .shots-desc {
+//             font-size: 22px !important;
+//         }
+//     }
 
-    .social-row {
-        display: none;
-    }
+//     .social-row {
+//         display: none;
+//     }
 
-    .footer-description {
-        line-height: 1.0 !important;
-    }
+//     .footer-description {
+//         line-height: 1.0 !important;
+//     }
 
-    .card-text {
-        line-height: 1.0 !important;
-    }
+//     .card-text {
+//         line-height: 1.0 !important;
+//     }
 
-    .micro-img {
-        height: 65px !important;
-        width: 65px !important;
-    }
-    .micro-col {
-        width: 210px !important;
-    }
-}
+//     .micro-img {
+//         height: 65px !important;
+//         width: 65px !important;
+//     }
+//     .micro-col {
+//         width: 210px !important;
+//     }
+// }
 
-@media only screen and (max-width: 1024px) {
+// @media only screen and (max-width: 1024px) {
 
-    // -----------Upper Banner--------
-    .upper-banner-wrapper {
-        .upper-banner {
-            .details-wrapper {
-                padding: 0;
-            }
-        }
-    }
+//     // -----------Upper Banner--------
+//     .upper-banner-wrapper {
+//         .upper-banner {
+//             .details-wrapper {
+//                 padding: 0;
+//             }
+//         }
+//     }
 
-    // ----------Social Stying------
-    .social-col {
-        height: 120px !important;
+//     // ----------Social Stying------
+//     .social-col {
+//         height: 120px !important;
 
-        .social-icon {
-            font-size: 28px !important;
-        }
+//         .social-icon {
+//             font-size: 28px !important;
+//         }
 
-        .social-view {
-            font-size: 18px !important;
-        }
+//         .social-view {
+//             font-size: 18px !important;
+//         }
 
-        .social-title {
-            font-size: 16px !important;
-        }
-    }
+//         .social-title {
+//             font-size: 16px !important;
+//         }
+//     }
 
-    // -----------Common Description Class------------
+//     // -----------Common Description Class------------
 
-    .common-desc {
-        padding-left: 20px;
-    }
+//     .common-desc {
+//         padding-left: 20px;
+//     }
 
-    // -------Common Author-------
+//     // -------Common Author-------
 
-    .common-author {
-        padding-left: 20px;
-    }
+//     .common-author {
+//         padding-left: 20px;
+//     }
 
-    // ----------Popular Post-----------
-    .post-column {
-        display: none;
-    }
+//     // ----------Popular Post-----------
+//     .post-column {
+//         display: none;
+//     }
 
-}
+// }
