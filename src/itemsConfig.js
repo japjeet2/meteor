@@ -63,7 +63,7 @@ export const StyleSmallCard = [
     style: "Fashion",
     view: "12.3k",
     backgroundColor: "#dd4c39",
-    heading: "Chris Christie, New Jersey governor, enjoys beach",
+    heading: "If you wanted to get rich, how  would you do it?",
     authorDetails: "Jhon  |  2 hours ago",
     description: "Seven years after the Affordable Care act was enacted, Republicans are trying to follow through on their..."
   },
@@ -107,14 +107,14 @@ export const LifeStyleSmallCardCol1 = [
   {
     id: 2,
     photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
-    description: "Most Beautiful Things to Do in Sidney with Your BF",
+    description: "Scarlett’s disappointment at latest accolade",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 3,
     photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
-    description: "Have Fun in The Morning With a Cup of Coffee",
+    description: "Scarlett’s disappointment at latest accolade",
     authorDetails: "Jhon  |  2 hours ago"
   }
 ];
@@ -123,21 +123,21 @@ export const LifeStyleSmallCardCol2 = [
   {
     id: 1,
     photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
-    description: "Accompany Your Trips, in The Blue Sky",
+    description: "Scarlett’s disappointment at latest accolade",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 2,
     photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
-    description: "Summer Travel Fashion, Your Holiday Choice",
+    description: "Scarlett’s disappointment at latest accolade",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 3,
     photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
-    description: "Life’s challenges force us to harden up",
+    description: "Scarlett’s disappointment at latest accolade",
     authorDetails: "Jhon  |  2 hours ago"
   }
 ];
