@@ -1,3 +1,11 @@
+// ------------------lower header Data------------
+export const HeaderData = [
+  {
+    id: 1,
+    logo: "https://i.ibb.co/2ZD6Mfk/logo.png"
+  }
+];
+
 //---------------------bannerData------------------------
 
 export const BannerData = [
@@ -35,7 +43,7 @@ export const BannerData = [
 export const StyleData = [
   {
     id: 1,
-    image: "https://i.ibb.co/gzJ83wz/style-hunter.jpg",
+    image: "https://i.ibb.co/JttCdFT/a6.jpg",
     style: "Vogue",
     view: "36.6k",
     backgroundColor: "#8a3ab9",
@@ -76,7 +84,7 @@ export const StyleSmallCard = [
 export const LifeStyleData = [
   {
     id: 1,
-    image: "https://i.ibb.co/zRpcdrc/lifestyle.jpg",
+    image: "https://i.ibb.co/LhDHwX4/a8.jpg",
     style: "Vogue",
     view: "192.4k",
     backgroundColor: "#f44336",
@@ -215,7 +223,7 @@ export const CelebMicroCard = [
 export const VideosData = [
   {
     id: 1,
-    image: "https://i.ibb.co/zRpcdrc/lifestyle.jpg",
+    image: "https://i.ibb.co/KFDsgHm/a9.jpg",
     style: "Vogue",
     view: "736.8k",
     backgroundColor: "#f44336",
