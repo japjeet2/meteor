@@ -3,16 +3,9 @@ import { Navbar, Nav, Card } from "react-bootstrap";
 import { VideosData, VideoSmallCardCol1, VideoSmallCardCol2 } from "../../itemsConfig";
 
 class Videos extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: VideosData,
-      smallDataCol1: VideoSmallCardCol1,
-      smallDataCol2: VideoSmallCardCol2
-    };
-  }
+
   render() {
-    const { data, smallDataCol1, smallDataCol2 } = this.state;
+    
     return (
       <div>
         {/* Video Header */}
@@ -38,7 +31,7 @@ class Videos extends Component {
 
         {/* Videos Bigger Container */}
 
-        {data.map(item => {
+        {VideosData.map(item => {
           return (
             <Card key={item.id}>
               <Card.Img variant="top" src={item.image} />
@@ -67,7 +60,7 @@ class Videos extends Component {
 
         <div className="row micro-row">
           <ul className="col-sm-6">
-            {smallDataCol1.map(item => {
+            {VideoSmallCardCol1.map(item => {
               return (
                 <li key={item.id} className="micro-col">
                   <img className="micro-img" src={item.photo} alt="" />
@@ -81,7 +74,7 @@ class Videos extends Component {
           </ul>
 
           <ul className="col-sm-6">
-            {smallDataCol2.map(item => {
+            {VideoSmallCardCol2.map(item => {
               return (
                 <li key={item.id} className="micro-col">
                   <img className="micro-img" src={item.photo} alt="" />

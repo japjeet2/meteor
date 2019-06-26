@@ -11,7 +11,7 @@ export const HeaderData = [
 export const BannerData = [
   {
     id: 1,
-    image: "https://i.ibb.co/w02KCyj/r3.jpg",
+    image: "https://i.ibb.co/fFbc8mv/b1.jpg",
     style: "StyleHunter",
     view: "336.4k",
     backgroundColor: "#8a3ab9",
@@ -20,7 +20,7 @@ export const BannerData = [
   },
   {
     id: 2,
-    image: "https://i.ibb.co/tMYqPJx/r1.jpg",
+    image: "https://i.ibb.co/1rzpvzZ/b2.jpg",
     style: "Vogue",
     view: "192.54k",
     backgroundColor: "#dd4c39",
@@ -29,7 +29,7 @@ export const BannerData = [
   },
   {
     id: 3,
-    image: "https://i.ibb.co/FJZFTJ4/r2.jpg",
+    image: "https://i.ibb.co/MPv2khP/b3.jpg",
     style: "Fashion",
     view: "226.36k",
     backgroundColor: "#3b59a1",
@@ -186,14 +186,14 @@ export const CelebMicroCard = [
   {
     id: 1,
     photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
-    description: "Scarlett’s disappointment at latest accolade",
+    description: "Have Fun in The Morning With a Cup of Coffee",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 2,
     photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
-    description: "Most Beautiful Things to Do in Sidney with Your BF",
+    description: "Have Fun in The Morning With a Cup of Coffee",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
@@ -239,21 +239,21 @@ export const VideoSmallCardCol1 = [
   {
     id: 1,
     photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
-    description: "Scarlett’s disappointment at latest accolade",
+    description: "Life’s challenges force us to harden up",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 2,
     photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
-    description: "Most Beautiful Things to Do in Sidney with Your BF",
+    description: "Life’s challenges force us to harden up",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 3,
     photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
-    description: "Have Fun in The Morning With a Cup of Coffee",
+    description: "Life’s challenges force us to harden up",
     authorDetails: "Jhon  |  2 hours ago"
   }
 ];
@@ -262,14 +262,14 @@ export const VideoSmallCardCol2 = [
   {
     id: 1,
     photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
-    description: "Accompany Your Trips, in The Blue Sky",
+    description: "Life’s challenges force us to harden up",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 2,
     photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
-    description: "Summer Travel Fashion, Your Holiday Choice",
+    description: "Life’s challenges force us to harden up",
     authorDetails: "Jhon  |  2 hours ago"
   },
 

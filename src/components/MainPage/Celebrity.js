@@ -3,16 +3,8 @@ import { Navbar, Nav, Card } from "react-bootstrap";
 import { CelebSmallCard, CelebSmallCardCol1, CelebMicroCard } from "../../itemsConfig";
 
 class Celebrity extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: CelebSmallCard,
-      singleData: CelebSmallCardCol1,
-      microData: CelebMicroCard
-    };
-  }
+
   render() {
-    const { data, singleData, microData } = this.state;
     return (
       <div>
         {/* Celebrity Header */}
@@ -37,7 +29,7 @@ class Celebrity extends Component {
         </Navbar>
         {/* CeleBrity Small Cards */}
         <ul className="row row-wrapper">
-          {data.map(item => {
+          {CelebSmallCard.map(item => {
             return (
               <li key={item.id} className="col-sm-6">
                 <Card className="small-cards" key={item.id} >
@@ -69,7 +61,7 @@ class Celebrity extends Component {
 
         {/* Celebrity Left Card */}
         <div className="row row-wrapper">
-          {singleData.map(item => {
+          {CelebSmallCardCol1.map(item => {
             return (
               <div key={item.id} className="col-sm-6">
                 <Card key={item.id} >
@@ -101,7 +93,7 @@ class Celebrity extends Component {
           {/* Celebrity Right Micro Column */}
 
           <ul className="col-sm-6 micro-cards">
-            {microData.map(item => {
+            {CelebMicroCard.map(item => {
               return (
                 <li key={item.id} className="micro-col celeb-micro-col">
                   <img className="micro-img" src={item.photo} alt="" />

@@ -26,7 +26,7 @@ class LowerHeader extends Component {
           {
             HeaderData.map(item => {
               return(
-                <img src={item.logo} alt="logo" style={{ height: "30px" }} />
+                <img key ={item.id} src={item.logo} alt="logo" style={{ height: "30px" }} />
               )
             })
           }

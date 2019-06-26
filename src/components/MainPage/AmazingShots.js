@@ -2,18 +2,11 @@ import React, { Component } from "react";
 import { AmazingShotsData } from "../../itemsConfig";
 
 class AmazingShots extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: AmazingShotsData
-    };
-  }
-  render() {
-    const { data } = this.state;
 
+  render() {
     return (
       <ul className="shots-section">
-        {data.map(item => {
+        {AmazingShotsData.map(item => {
           return (
             <li
               key={item.id}

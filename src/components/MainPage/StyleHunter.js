@@ -3,15 +3,9 @@ import { Navbar, Nav, Card } from "react-bootstrap";
 import { StyleData, StyleSmallCard } from "../../itemsConfig";
 
 class StyleHunter extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: StyleData,
-      smallData: StyleSmallCard
-    };
-  }
+
   render() {
-    const { data, smallData } = this.state;
+
     return (
       <div className="main-page-wrapper">
         {/* Style Hunter Header */}
@@ -39,7 +33,7 @@ class StyleHunter extends Component {
 
         {/* Bigger Container */}
 
-        {data.map(item => {
+        {StyleData.map(item => {
           return (
             <Card key={item.id}>
               <Card.Img variant="top" src={item.image} />
@@ -69,7 +63,7 @@ class StyleHunter extends Component {
         {/* Smaller Containers */}
 
         <ul className="row row-wrapper">
-          {smallData.map(item => {
+          {StyleSmallCard.map(item => {
             return (
               <li key={item.id} className="col-sm-6">
                 <Card className="small-cards" key={item.id} >

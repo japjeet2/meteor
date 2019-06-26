@@ -7,16 +7,8 @@ import {
 } from "../../itemsConfig";
 
 class LifeStyle extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: LifeStyleData,
-      smallDataCol1: LifeStyleSmallCardCol1,
-      smallDataCol2: LifeStyleSmallCardCol2
-    };
-  }
+
   render() {
-    const { data, smallDataCol1, smallDataCol2 } = this.state;
     return (
       <div className="main-page-wrapper">
         {/* Life Style Header */}
@@ -42,7 +34,7 @@ class LifeStyle extends Component {
 
         {/* Life Style Bigger Container */}
 
-        {data.map(item => {
+        {LifeStyleData.map(item => {
           return (
             <Card key={item.id}>
               <Card.Img variant="top" src={item.image} />
@@ -71,7 +63,7 @@ class LifeStyle extends Component {
 
         <div className="row micro-row">
           <ul className="col-sm-6">
-            {smallDataCol1.map(item => {
+            {LifeStyleSmallCardCol1.map(item => {
               return (
                 <li key={item.id} className="micro-col">
                   <img className="micro-img" src={item.photo} alt="" />
@@ -85,7 +77,7 @@ class LifeStyle extends Component {
           </ul>
 
           <ul className="col-sm-6">
-            {smallDataCol2.map(item => {
+            {LifeStyleSmallCardCol2.map(item => {
               return (
                 <li key={item.id} className="micro-col">
                   <img className="micro-img" src={item.photo} alt="" />

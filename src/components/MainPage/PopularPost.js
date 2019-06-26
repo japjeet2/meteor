@@ -2,20 +2,13 @@ import React, { Component } from "react";
 import { PopularPostMain, PostMicroCard } from "../../itemsConfig";
 
 class PopularPost extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: PopularPostMain,
-      microData: PostMicroCard
-    };
-  }
+
   render() {
-    const { data, microData } = this.state;
     return (
       <div className="row post-column">
         {/* Popular Post Main Section Column */}
         <div className="post-upper-wrapper">
-          {data.map(item => {
+          {PopularPostMain.map(item => {
             return (
               <div key={item.id} className="post-inner-wrapper">
                 <h1 className="post-heading">{item.heading}</h1>
@@ -48,8 +41,8 @@ class PopularPost extends Component {
 
           {/* Popular Post Micro Column */}
           
-          <ul className="post-micro-data">
-            {microData.map(item => {
+          <ul className="post-micro-PopularPostMain">
+            {PostMicroCard.map(item => {
               return (
                 <li key={item.id} className="micro-col celeb-micro-col">
                   <img className="micro-img" src={item.photo} alt="" />
