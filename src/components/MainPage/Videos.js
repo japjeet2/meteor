@@ -7,7 +7,7 @@ class Videos extends Component {
   render() {
     
     return (
-      <div>
+      <div className="main-page-wrapper">
         {/* Video Header */}
         <Navbar className="top-section-div">
           <Navbar.Brand href="#home" className="videos-heading">

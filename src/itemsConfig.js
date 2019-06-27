@@ -16,7 +16,8 @@ export const BannerData = [
     view: "336.4k",
     backgroundColor: "#8a3ab9",
     description: "Congress Is About To Hand Over Your Personal Browsing Data",
-    authorDetails: "Jhon  |  2 hours ago"
+    authorDetails: "Jhon  |  2 hours ago",
+    gradient: 'linear-gradient(to bottom, rgba(239, 87, 84, 0.3) 0%,rgba(124, 24, 147, 0.75) 100%)'
   },
   {
     id: 2,
@@ -25,16 +26,18 @@ export const BannerData = [
     view: "192.54k",
     backgroundColor: "#dd4c39",
     description: "Congress Is About To Hand Over Your Personal Browsing Data",
-    authorDetails: "Jhon  |  2 hours ago"
+    authorDetails: "Jhon  |  2 hours ago",
+    gradient: 'linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%,rgba(236, 73, 20, 0.75) 100%)'
   },
   {
     id: 3,
-    image: "https://i.ibb.co/MPv2khP/b3.jpg",
+    image: "https://i.ibb.co/dgxkxJL/c1.jpg",
     style: "Fashion",
     view: "226.36k",
     backgroundColor: "#3b59a1",
     description: "Congress Is About To Hand Over Your Personal Browsing Data",
-    authorDetails: "Jhon  |  2 hours ago"
+    authorDetails: "Jhon  |  2 hours ago",
+    gradient: 'linear-gradient(to bottom, rgba(239, 88, 85, 0.3) 0%,rgba(15, 130, 210, 0.75) 100%)'
   }
 ];
 
@@ -99,21 +102,21 @@ export const LifeStyleData = [
 export const LifeStyleSmallCardCol1 = [
   {
     id: 1,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/8XBqrmh/d1.jpg",
     description: "Scarlett’s disappointment at latest accolade",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 2,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/2kDPQZ4/d2.jpg",
     description: "Scarlett’s disappointment at latest accolade",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 3,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/gmBRsNn/d3.jpg",
     description: "Scarlett’s disappointment at latest accolade",
     authorDetails: "Jhon  |  2 hours ago"
   }
@@ -122,21 +125,21 @@ export const LifeStyleSmallCardCol1 = [
 export const LifeStyleSmallCardCol2 = [
   {
     id: 1,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/pwMcCcg/d4.jpg",
     description: "Scarlett’s disappointment at latest accolade",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 2,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/Gc1xtCY/d5.jpg",
     description: "Scarlett’s disappointment at latest accolade",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 3,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/XLjVgDb/d6.jpg",
     description: "Scarlett’s disappointment at latest accolade",
     authorDetails: "Jhon  |  2 hours ago"
   }
@@ -185,35 +188,35 @@ export const CelebSmallCardCol1 = [
 export const CelebMicroCard = [
   {
     id: 1,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/8XBqrmh/d1.jpg",
     description: "Have Fun in The Morning With a Cup of Coffee",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 2,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/2kDPQZ4/d2.jpg",
     description: "Have Fun in The Morning With a Cup of Coffee",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 3,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/gmBRsNn/d3.jpg",
     description: "Have Fun in The Morning With a Cup of Coffee",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 4,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/pwMcCcg/d4.jpg",
     description: "Have Fun in The Morning With a Cup of Coffee",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 5,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/Gc1xtCY/d5.jpg",
     description: "Have Fun in The Morning With a Cup of Coffee",
     authorDetails: "Jhon  |  2 hours ago"
   }
@@ -238,21 +241,21 @@ export const VideosData = [
 export const VideoSmallCardCol1 = [
   {
     id: 1,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/8XBqrmh/d1.jpg",
     description: "Life’s challenges force us to harden up",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 2,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/2kDPQZ4/d2.jpg",
     description: "Life’s challenges force us to harden up",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 3,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/gmBRsNn/d3.jpg",
     description: "Life’s challenges force us to harden up",
     authorDetails: "Jhon  |  2 hours ago"
   }
@@ -261,21 +264,21 @@ export const VideoSmallCardCol1 = [
 export const VideoSmallCardCol2 = [
   {
     id: 1,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/pwMcCcg/d4.jpg",
     description: "Life’s challenges force us to harden up",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 2,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/Gc1xtCY/d5.jpg",
     description: "Life’s challenges force us to harden up",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 3,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/XLjVgDb/d6.jpg",
     description: "Life’s challenges force us to harden up",
     authorDetails: "Jhon  |  2 hours ago"
   }
@@ -356,35 +359,35 @@ export const PopularPostMain = [
 export const PostMicroCard = [
   {
     id: 1,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/8XBqrmh/d1.jpg",
     description: "Scarlett’s disappointment at latest accolade",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 2,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/2kDPQZ4/d2.jpg",
     description: "Most Beautiful Things to Do in Sidney with Your BF",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 3,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/gmBRsNn/d3.jpg",
     description: "Have Fun in The Morning With a Cup of Coffee",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 4,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/pwMcCcg/d4.jpg",
     description: "Have Fun in The Morning With a Cup of Coffee",
     authorDetails: "Jhon  |  2 hours ago"
   },
 
   {
     id: 5,
-    photo: "https://i.ibb.co/fQn7yKT/small-image.jpg",
+    photo: "https://i.ibb.co/Gc1xtCY/d5.jpg",
     description: "Have Fun in The Morning With a Cup of Coffee",
     authorDetails: "Jhon  |  2 hours ago"
   }

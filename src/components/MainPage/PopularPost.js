@@ -41,7 +41,7 @@ class PopularPost extends Component {
 
           {/* Popular Post Micro Column */}
           
-          <ul className="post-micro-PopularPostMain">
+          <ul className="post-micro">
             {PostMicroCard.map(item => {
               return (
                 <li key={item.id} className="micro-col celeb-micro-col">

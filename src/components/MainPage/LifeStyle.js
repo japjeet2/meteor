@@ -61,6 +61,8 @@ class LifeStyle extends Component {
           );
         })}
 
+        {/* Life Style Smaller Container */}
+
         <div className="row micro-row">
           <ul className="col-sm-6">
             {LifeStyleSmallCardCol1.map(item => {

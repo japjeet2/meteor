@@ -6,7 +6,7 @@ class Celebrity extends Component {
 
   render() {
     return (
-      <div>
+      <div className="main-page-wrapper">
         {/* Celebrity Header */}
         <Navbar className="top-section-div">
           <Navbar.Brand href="#home" className="celeb-heading">

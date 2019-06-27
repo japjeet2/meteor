@@ -88,11 +88,13 @@ a {
       .upper-banner-wrapper .upper-banner .details-wrapper .author-details {
         font-size: 0.75rem; }
 
-.main-page-wrapper {
-  margin: 20px 0 20px; }
-
 .main-section {
   background-color: #ccc; }
+
+.main-page-wrapper {
+  margin: 40px 0; }
+  .main-page-wrapper .navbar {
+    padding-left: 0; }
 
 .style-hunter-heading {
   color: #8a3ab9 !important;
@@ -122,7 +124,7 @@ a {
   color: #979aa4;
   font-size: 0.75rem; }
 .card-description .card-text {
-  margin: 15px 0 25px;
+  margin: 15px 0 15px;
   word-spacing: 1rem;
   line-height: 1.5;
   font-size: 0.875rem; }
@@ -204,13 +206,13 @@ a {
 
 .post-column {
   background-color: #fff;
-  margin: 20px 0 0; }
+  margin: 20px 0; }
 
 .post-upper-wrapper {
   margin: 0 auto; }
   .post-upper-wrapper .post-heading {
     font-weight: 600;
-    margin: 20px 0 20px; }
+    margin: 14px 0 20px; }
   .post-upper-wrapper .post-image {
     color: #fff;
     position: relative;
@@ -231,15 +233,17 @@ a {
       .post-upper-wrapper .post-image .post-details-wrapper .post-author {
         font-size: 0.75rem; }
 
-.post-micro-data {
-  margin: 20px 0; }
+.post-micro {
+  margin: 10px 0; }
 
 .shots-section {
   color: #fff; }
   .shots-section .shots-wrapper {
-    margin: 20% 0;
+    margin: 60px 0;
     display: flex;
     justify-content: center; }
+  .shots-section:last-child {
+    padding-top: 70px 0; }
   .shots-section .shots-details {
     width: 80%;
     height: 100%;
@@ -248,7 +252,8 @@ a {
     .shots-section .shots-details .shots-title {
       position: absolute;
       top: 10%;
-      font-size: 2.25rem; }
+      font-size: 2.25rem;
+      font-style: italic; }
     .shots-section .shots-details .shots-desc {
       position: absolute;
       bottom: 20%;

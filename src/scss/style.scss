@@ -158,9 +158,7 @@ a {
 }
 
 // ----------Main Section----------------
-.main-page-wrapper {
-    margin: 20px 0 20px;
-}
+
 
 .main-section {
     // background-color: $offWhite;
@@ -168,6 +166,12 @@ a {
 }
 
 // --------------Style & Life Cycle Section Division--------------
+.main-page-wrapper {
+    margin: 40px 0;
+    .navbar {
+        padding-left: 0;
+    }
+}
 
 .style-hunter-heading {
     color: $commonPurple !important;
@@ -176,6 +180,7 @@ a {
 
 .top-section-div {
     @include borderGradientStyling();
+
 
     .top-section-nav {
         position: absolute;
@@ -204,7 +209,7 @@ a {
     }
 
     .card-text {
-        margin: 15px 0 25px;
+        margin: 15px 0 15px;
         word-spacing: 1rem;
         line-height: 1.5;
         font-size: 0.875rem;
@@ -333,7 +338,7 @@ a {
 
 .post-column {
     background-color: $white;
-    margin: 20px 0 0;
+    margin: 20px 0;
 }
 
 .post-upper-wrapper {
@@ -341,7 +346,7 @@ a {
 
     .post-heading {
         font-weight: $boldFontWeight;
-        margin: 20px 0 20px;
+        margin: 14px 0 20px;
     }
 
     .post-image {
@@ -376,8 +381,8 @@ a {
     }
 }
 
-.post-micro-data {
-    margin: 20px 0;
+.post-micro {
+    margin: 10px 0;
 }
 
 // -------------Amazing Shots Styling-------------
@@ -386,9 +391,12 @@ a {
     color: $white;
 
     .shots-wrapper {
-        margin: 20% 0;
+        margin: 60px 0;
         display: flex;
         justify-content: center;
+    }
+    &:last-child {
+        padding-top: 70px 0 ;
     }
 
     .shots-details {
@@ -401,6 +409,7 @@ a {
             position: absolute;
             top: 10%;
             font-size: 2.25rem;
+            font-style: italic;
         }
 
         .shots-desc {
@@ -540,8 +549,6 @@ a {
         margin: 20px 0;
         padding: 0 25px;
     }
-
-    // ------------Social Styling-----------
 
 
     // ---------------Foot Top---------
