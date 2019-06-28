@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import { AmazingShotsData } from "../../itemsConfig";
+import { AmazingShotsData5 } from "../../../itemsConfig";
 
-class AmazingShots extends Component {
+class AmazingShots5 extends Component {
   render() {
     return (
-      <ul className="shots-section">
-        {AmazingShotsData.map(item => {
+      <ul className="shots-section amazing-5">
+        {AmazingShotsData5.map(item => {
           return (
             <li
               key={item.id}
@@ -29,4 +29,4 @@ class AmazingShots extends Component {
   }
 }
 
-export default AmazingShots;
+export default AmazingShots5;

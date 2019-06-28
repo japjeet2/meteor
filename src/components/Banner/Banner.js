@@ -2,17 +2,12 @@ import React, { Component } from "react";
 import { BannerData } from "../../itemsConfig";
 
 class Banner extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: BannerData
-    };
-  }
+
   render() {
-    const { data } = this.state;
+ 
     return (
       <ul className="row upper-banner-wrapper">
-        {data.map(item => {
+        {BannerData.map(item => {
           return (
             <li
               key={item.id}

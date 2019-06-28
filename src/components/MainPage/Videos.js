@@ -14,16 +14,16 @@ class Videos extends Component {
             Videos
           </Navbar.Brand>
           <Nav className="mr-auto top-section-nav">
-            <Nav.Link className="top-section-links" href="#world">
+            <Nav.Link className="top-section-links videos-hover" href="#world">
               WORLD
             </Nav.Link>
-            <Nav.Link className="top-section-links" href="#people">
+            <Nav.Link className="top-section-links videos-hover" href="#people">
               PEOPLE
             </Nav.Link>
-            <Nav.Link className="top-section-links" href="#food">
+            <Nav.Link className="top-section-links videos-hover" href="#food">
               FOOD
             </Nav.Link>
-            <Nav.Link className="top-section-links" href="#animal">
+            <Nav.Link className="top-section-links videos-hover" href="#animal">
               ANIMAL
             </Nav.Link>
           </Nav>

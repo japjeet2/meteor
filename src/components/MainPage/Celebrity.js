@@ -13,16 +13,16 @@ class Celebrity extends Component {
             Celebrity
           </Navbar.Brand>
           <Nav className="mr-auto top-section-nav">
-            <Nav.Link className="top-section-links" href="#world">
+            <Nav.Link className="top-section-links celebrity-hover" href="#world">
               WORLD
             </Nav.Link>
-            <Nav.Link className="top-section-links" href="#people">
+            <Nav.Link className="top-section-links celebrity-hover" href="#people">
               PEOPLE
             </Nav.Link>
-            <Nav.Link className="top-section-links" href="#food">
+            <Nav.Link className="top-section-links celebrity-hover" href="#food">
               FOOD
             </Nav.Link>
-            <Nav.Link className="top-section-links" href="#animal">
+            <Nav.Link className="top-section-links celebrity-hover" href="#animal">
               ANIMAL
             </Nav.Link>
           </Nav>

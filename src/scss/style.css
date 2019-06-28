@@ -71,7 +71,7 @@ a {
       position: absolute;
       bottom: 15%;
       max-width: 400px;
-      padding-left: 30px;
+      left: 10%;
       font-size: 0.875rem; }
       .upper-banner-wrapper .upper-banner .details-wrapper .upper-banner-style-type {
         margin-right: 10px;
@@ -88,13 +88,14 @@ a {
       .upper-banner-wrapper .upper-banner .details-wrapper .author-details {
         font-size: 0.75rem; }
 
+.col-common {
+  margin: 30px 0; }
+
 .main-section {
   background-color: #f5f5f5; }
 
-.main-page-wrapper {
-  margin: 40px 0; }
-  .main-page-wrapper .navbar {
-    padding-left: 0; }
+.main-page-wrapper .navbar {
+  padding-left: 0; }
 
 .style-hunter-heading {
   color: #8a3ab9 !important;
@@ -129,6 +130,18 @@ a {
   line-height: 1.5;
   font-size: 0.875rem; }
 
+.style-hunter-hover:hover {
+  color: teal !important; }
+
+.life-style-hover:hover {
+  color: red !important; }
+
+.celebrity-hover:hover {
+  color: teal !important; }
+
+.videos-hover:hover {
+  color: blue !important; }
+
 .row-wrapper {
   margin-top: 30px; }
 
@@ -149,7 +162,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 21px; }
+  margin-top: 16px; }
   .micro-col .micro-img {
     width: 100px;
     height: 100px; }
@@ -185,7 +198,6 @@ a {
 .social-col {
   color: #fff;
   padding: 0 15px;
-  margin-top: 35px;
   display: flex;
   justify-content: space-between; }
   .social-col .social-wrapper {
@@ -206,10 +218,10 @@ a {
 
 .post-column {
   padding: inherit;
-  margin-top: 50px; }
+  margin-top: 45px; }
   .post-column .post-details-wrapper {
-    top: 110px;
-    left: 20px;
+    top: 22%;
+    left: 5%;
     color: #fff;
     font-size: 0.875rem; }
     .post-column .post-details-wrapper .post-description {
@@ -235,8 +247,6 @@ a {
 
 .shots-section {
   color: #fff; }
-  .shots-section .shots-wrapper {
-    margin-top: 50px; }
   .shots-section .shots-details {
     width: 80%;
     height: 100%;
@@ -252,6 +262,21 @@ a {
       position: absolute;
       bottom: 20%;
       font-size: 1.75rem; }
+
+.amazing-1 {
+  padding-top: 12px; }
+
+.amazing-2 {
+  padding-top: 60px; }
+
+.amazing-3 {
+  padding-top: 12px; }
+
+.amazing-4 {
+  padding-top: 145px; }
+
+.amazing-5 {
+  padding-top: 12px; }
 
 .footer-container {
   background-color: #090e1d;
@@ -312,13 +337,13 @@ a {
       padding-left: 10px !important;
       max-width: 300px !important; }
 
+  .style-hunter-specific {
+    margin-top: 120px; }
+
   .top-section-div {
     padding: 0 !important; }
     .top-section-div .top-section-nav {
       font-size: 0.75rem !important; }
-
-  .main-page-wrapper {
-    margin-top: 120px; }
 
   .row-wrapper .small-cards {
     margin-top: 20px; }
@@ -378,7 +403,10 @@ a {
     width: 65px !important; }
 
   .micro-col {
-    width: 210px !important; } }
+    width: 210px !important; }
+
+  .post-column {
+    display: none; } }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .upper-banner-wrapper .upper-banner .details-wrapper {
     padding: 0; }
@@ -396,6 +424,12 @@ a {
     padding-left: 20px; }
 
   .common-author {
-    padding-left: 20px; } }
+    padding-left: 20px; }
+
+  .post-column .post-details-wrapper {
+    font-size: 0.625rem; }
+
+  .micro-desc {
+    font-size: 0.625rem !important; } }
 
 /*# sourceMappingURL=style.css.map */

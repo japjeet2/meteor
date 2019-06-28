@@ -127,7 +127,8 @@ a {
             position: absolute;
             bottom: 15%;
             max-width: 400px;
-            padding-left: 30px;
+            // padding-left: 30px;
+            left: 10%;
             font-size: 0.875rem;
 
             .upper-banner-style-type {
@@ -159,15 +160,16 @@ a {
 
 // ----------Main Section----------------
 
-
+.col-common {
+    margin: 30px 0;
+}
 .main-section {
     background-color: $offWhite;
     // background-color: #ccc;
 }
 
-// --------------Style & Life Cycle Section Division--------------
+// --------------Style, LifeStyle & Videos Common Styling--------------
 .main-page-wrapper {
-    margin: 40px 0;
 
     .navbar {
         padding-left: 0;
@@ -217,6 +219,36 @@ a {
     }
 }
 
+// -----------Style Hunter Specific--------
+.style-hunter-hover {
+    &:hover {
+        color: teal !important;
+    }
+}
+
+// --------------Life Style Specific----------
+.life-style-hover {
+    &:hover {
+        color: red !important;
+    }
+}
+
+// --------------Celebrity Specific----------
+
+.celebrity-hover {
+    &:hover {
+        color: teal !important;
+    }
+}
+
+// --------------Celebrity Specific----------
+
+.videos-hover {
+    &:hover {
+        color: blue !important;
+    }
+}
+
 // --------------------Small Card Styling----------------
 
 .row-wrapper {
@@ -248,7 +280,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 21px;
+    margin-top: 16px;
 
     .micro-img {
         width: 100px;
@@ -310,7 +342,6 @@ a {
 .social-col {
     color: $white;
     padding: 0 15px;
-    margin-top: 35px;
     display: flex;
     justify-content: space-between;
 
@@ -345,11 +376,11 @@ a {
 
 .post-column {
     padding: inherit;
-    margin-top: 50px;
+    margin-top: 45px;
 
     .post-details-wrapper {
-        top: 110px;
-        left: 20px;
+        top: 22%;
+        left: 5%;
         color: $white;
         font-size: 0.875rem;
 
@@ -372,7 +403,7 @@ a {
 }
 
 
-// -------------Amazing Shots Styling-------------
+// -------------Amazing Shots Common Styling-------------
 
 .overlay {
     display: block;
@@ -389,11 +420,6 @@ a {
 .shots-section {
     color: $white;
 
-    .shots-wrapper {
-        margin-top: 50px;
-        // display: flex;
-        // justify-content: center;
-    }
 
     .shots-details {
         width: 80%;
@@ -415,6 +441,28 @@ a {
             font-size: 1.75rem;
         }
     }
+}
+
+// ------------------Amazing Shots Specific-------------
+
+.amazing-1 {
+    padding-top: 12px
+}
+
+.amazing-2 {
+    padding-top: 60px;
+}
+
+.amazing-3 {
+    padding-top: 12px
+}
+
+.amazing-4 {
+    padding-top: 145px
+}
+
+.amazing-5 {
+    padding-top: 12px
 }
 
 // ---------------Footer Main Styling------------
@@ -526,16 +574,17 @@ a {
     }
 
     // -------------Commmon Navigation Styling------------
+
+    .style-hunter-specific {
+        margin-top: 120px;
+    }
+
     .top-section-div {
         padding: 0 !important;
 
         .top-section-nav {
             font-size: 0.75rem !important;
         }
-    }
-
-    .main-page-wrapper {
-        margin-top: 120px;
     }
 
     // ----------------Small Cards Styling----------
@@ -587,6 +636,7 @@ a {
     .foot-bottom-detail {
         text-align: center !important;
     }
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -637,6 +687,10 @@ a {
     .micro-col {
         width: 210px !important;
     }
+
+    .post-column {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -682,5 +736,16 @@ a {
     }
 
     // ----------Popular Post-----------
+.post-column {
+    .post-details-wrapper {
+        font-size: 0.625rem;
+    }
+}
+
+    .micro-desc {
+        font-size: 0.625rem !important;
+    }
+
+
 
 }
