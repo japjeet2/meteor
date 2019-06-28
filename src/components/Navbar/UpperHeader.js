@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class UpperHeader extends Component {
   render() {
     return (
-      <div className="primarynav" style={{ background: "#1A0E36" }}>
+      <div className="primarynav upper-header" style={{ background: "#1A0E36" }}>
         <nav
           className="navbar navbar-expand-lg"
           style={{ width: "80%", margin: "auto", padding: "0px" }}

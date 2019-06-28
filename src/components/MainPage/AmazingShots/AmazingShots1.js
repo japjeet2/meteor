@@ -4,10 +4,10 @@ import { AmazingShotsData1 } from "../../../itemsConfig";
 class AmazingShots1 extends Component {
   render() {
     return (
-      <ul className="shots-section amazing-1">
+      <div className="shots-section amazing-1">
         {AmazingShotsData1.map(item => {
           return (
-            <li
+            <div
               key={item.id}
               className="shots-wrapper"
               style={{
@@ -21,10 +21,10 @@ class AmazingShots1 extends Component {
                   <p className="shots-desc">{item.description}</p>
                 </div>
               </div>
-            </li>
+            </div>
           );
         })}
-      </ul>
+      </div>
     );
   }
 }
