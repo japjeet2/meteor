@@ -161,13 +161,14 @@ a {
 
 
 .main-section {
-    // background-color: $offWhite;
-    background-color: #ccc;
+    background-color: $offWhite;
+    // background-color: #ccc;
 }
 
 // --------------Style & Life Cycle Section Division--------------
 .main-page-wrapper {
     margin: 40px 0;
+
     .navbar {
         padding-left: 0;
     }
@@ -209,7 +210,7 @@ a {
     }
 
     .card-text {
-        margin: 15px 0 15px;
+        margin: 10px 0;
         word-spacing: 1rem;
         line-height: 1.5;
         font-size: 0.875rem;
@@ -309,25 +310,30 @@ a {
 .social-col {
     color: $white;
     padding: 0 15px;
-    margin-top: 15px;
+    margin-top: 35px;
     display: flex;
     justify-content: space-between;
+
     .social-wrapper {
         text-align: center;
         width: auto;
         height: auto;
         max-width: 106px;
         margin-top: 15px;
+
         span {
             display: block;
         }
+
         .icon {
             font-size: 2rem;
             padding: 30px 0;
         }
+
         .view {
             font-size: 1.5rem;
         }
+
         .title {
             padding: 5px 0;
         }
@@ -336,67 +342,57 @@ a {
 
 // -----------------Popular Post---------------
 
+
 .post-column {
-    background-color: $white;
-    margin: 20px 0;
-}
+    padding: inherit;
+    margin-top: 50px;
 
-.post-upper-wrapper {
-    margin: 0 auto;
-
-    .post-heading {
-        font-weight: $boldFontWeight;
-        margin: 14px 0 20px;
-    }
-
-    .post-image {
+    .post-details-wrapper {
+        top: 110px;
+        left: 20px;
         color: $white;
-        position: relative;
-        display: flex;
-        justify-content: center;
+        font-size: 0.875rem;
 
-        .post-details-wrapper {
-            position: absolute;
-            bottom: 10%;
-            width: 90%;
+        .post-description {
+            padding: 5px 0;
+        }
 
-            .post-style {
-                font-size: 0.75rem;
-                padding: 3px 5px;
-                margin-right: 20px;
-            }
+        .post-view {
+            margin-left: 20px;
+        }
 
-            .post-view {
-                font-size: 0.75rem;
-            }
-
-            .post-description {
-                margin: 10px 0 10px;
-            }
-
-            .post-author {
-                font-size: 0.75rem;
-            }
+        .post-author {
+            font-size: 0.625rem;
         }
     }
 }
 
 .post-micro {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
+
 // -------------Amazing Shots Styling-------------
+
+.overlay {
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
 
 .shots-section {
     color: $white;
 
     .shots-wrapper {
-        margin: 60px 0;
-        display: flex;
-        justify-content: center;
-    }
-    &:last-child {
-        padding-top: 70px 0 ;
+        margin-top: 50px;
+        // display: flex;
+        // justify-content: center;
     }
 
     .shots-details {
@@ -404,6 +400,7 @@ a {
         height: 100%;
         position: relative;
         text-align: center;
+        margin: 0 auto;
 
         .shots-title {
             position: absolute;
@@ -511,6 +508,7 @@ a {
     .upper-header {
         display: none;
     }
+
     .navbar-search {
         margin: 0;
     }
@@ -534,6 +532,10 @@ a {
         .top-section-nav {
             font-size: 0.75rem !important;
         }
+    }
+
+    .main-page-wrapper {
+        margin-top: 120px;
     }
 
     // ----------------Small Cards Styling----------
@@ -587,11 +589,12 @@ a {
     }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 768px) { 
+@media only screen and (min-width: 600px) and (max-width: 768px) {
 
     .description {
         font-size: 0.875rem !important;
     }
+
     .upper-header-links {
         font-size: 0.875rem !important;
     }
@@ -608,9 +611,11 @@ a {
 
     .shots-wrapper {
         height: 300px !important;
+
         .shots-title {
             font-size: 1.75rem !important;
         }
+
         .shots-desc {
             font-size: 1.375rem !important;
         }
@@ -628,12 +633,13 @@ a {
         height: 65px !important;
         width: 65px !important;
     }
+
     .micro-col {
         width: 210px !important;
     }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
     // -----------Upper Banner--------
     .upper-banner-wrapper {
@@ -648,14 +654,15 @@ a {
     .social-col {
         .social-wrapper {
             max-width: 85px;
+
             .icon {
                 font-size: 1.75rem !important;
             }
-    
+
             .view {
                 font-size: 1.125rem !important;
             }
-    
+
             .title {
                 font-size: 1rem !important;
             }
@@ -675,7 +682,5 @@ a {
     }
 
     // ----------Popular Post-----------
-    .post-column {
-        display: none;
-    }
+
 }

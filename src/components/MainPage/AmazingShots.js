@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { AmazingShotsData } from "../../itemsConfig";
 
 class AmazingShots extends Component {
-
   render() {
     return (
       <ul className="shots-section">
@@ -16,9 +15,11 @@ class AmazingShots extends Component {
                 height: "440px"
               }}
             >
-              <div className="shots-details">
-                <h1 className="shots-title">{item.title}</h1>
-                <p className="shots-desc">{item.description}</p>
+              <div className="overlay">
+                <div className="shots-details">
+                  <h1 className="shots-title">{item.title}</h1>
+                  <p className="shots-desc">{item.description}</p>
+                </div>
               </div>
             </li>
           );

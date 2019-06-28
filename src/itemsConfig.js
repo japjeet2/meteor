@@ -62,23 +62,23 @@ export const StyleData = [
 export const StyleSmallCard = [
   {
     id: 1,
-    image: "https://i.ibb.co/4MSBkbG/card12.jpg",
+    image: "https://i.ibb.co/8KKdQs8/c1.jpg",
     style: "Fashion",
     view: "12.3k",
     backgroundColor: "#dd4c39",
     heading: "If you wanted to get rich, how  would you do it?",
     authorDetails: "Jhon  |  2 hours ago",
-    description: "Seven years after the Affordable Care act was enacted, Republicans are trying to follow through on their..."
+    description: "Seven years after the Affordable Care act was enacted, Republicans are trying to follow through on"
   },
   {
     id: 2,
-    image: "https://i.ibb.co/cwwn3Rq/card13.jpg",
+    image: "https://i.ibb.co/QX0S9XY/c2.jpg",
     style: "Health",
     view: "55.6k",
     backgroundColor: "#14ca82",
     heading: "If you wanted to get rich, how  would you do it?",
     authorDetails: "Jhon  |  2 hours ago",
-    description: "Seven years after the Affordable Care act was enacted, Republicans are trying to follow through on their..."
+    description: "Seven years after the Affordable Care act was enacted, Republicans are trying to follow through on"
   }
 ];
 
@@ -345,7 +345,7 @@ export const PopularPostMain = [
   {
     id: 1,
     heading: "Popular Post",
-    backgroundImage: "https://i.ibb.co/MNT7Nzc/a6.jpg",
+    backgroundImage: "https://i.ibb.co/SsJVRwP/d1.jpg",
     style: "Vogue",
     backgroundColor: "#8a3ab9",
     view: "36.6k",
@@ -383,14 +383,8 @@ export const PostMicroCard = [
     photo: "https://i.ibb.co/pwMcCcg/d4.jpg",
     description: "Have Fun in The Morning With a Cup of Coffee",
     authorDetails: "Jhon  |  2 hours ago"
-  },
-
-  {
-    id: 5,
-    photo: "https://i.ibb.co/Gc1xtCY/d5.jpg",
-    description: "Have Fun in The Morning With a Cup of Coffee",
-    authorDetails: "Jhon  |  2 hours ago"
   }
+
 ];
 
 // --------------Amazing Shots Section----------------
@@ -422,14 +416,8 @@ export const AmazingShotsData = [
     title: "That is an amazing shot",
     backgroundImage: "https://i.ibb.co/8dmXVPP/a5.jpg",
     description: "Follow us on Instagram to get latest inspiration of fashion.",
-  },
-
-  {
-    id: 5,
-    title: "That is an amazing shot",
-    backgroundImage: "https://i.ibb.co/WBWfvr7/a1.jpg",
-    description: "Follow us on Instagram to get latest inspiration of fashion.",
   }
+  
 ];
 
 // --------------Footer description------------
